@@ -1,6 +1,6 @@
 @media screen and (min-width: 32.5em) {
     #marieparker {
-        width: 30%;
+        width: 20%;
         float: right; 
         box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), -7px 10px 10px 0 rgba(0, 0, 0, 0.2);
     }
