@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(238, 227, 202);
+    background-color: rgba(255, 255, 255, 0.925);
     max-width: 800px;
     margin: 1.5rem auto;
 }
 
 header, footer {
-    background-color: rgb(3, 77, 16);
+    background-color: rgb(8, 2, 68);
     color:#fff;
     text-align: center;
     border-radius: 0.5rem;
