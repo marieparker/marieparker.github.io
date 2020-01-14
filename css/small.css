@@ -22,7 +22,6 @@ header h1 {
 #marieparker {
     width: 20%;
     height: auto;
-    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.2), -7px 10px 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 footer {
