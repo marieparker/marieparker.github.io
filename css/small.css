@@ -32,6 +32,10 @@ footer {
     color: white;
 }
 
+a:visited {
+    color: blue;
+}
+
 nav {
     margin: 1.5rem;
     font-family: 'Roboto', serif;
