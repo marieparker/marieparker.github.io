@@ -1,6 +1,7 @@
 body {
     background-color: #fafaff;
     margin: 1.5rem auto;
+    max-width: 1000px;
 }
 
 header, footer {
