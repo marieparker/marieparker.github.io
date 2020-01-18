@@ -30,9 +30,6 @@ header a:link, a:visited, a:active {
 }
 
 section {
-    background-color: #C7CEDB;
-    border: 1pt solid #00512E;
-    border-top-style: none;
     margin: 1rem;
     border-top-left-radius: 0.5rem;
     border-top-right-radius: 0.5rem;
@@ -51,6 +48,9 @@ h3 {
     border-top-right-radius: 0.5rem;
 }
 p {
+    background-color: #C7CEDB;
+    border: 1pt solid #00512E;
+    border-top-style: none;
     line-height: 1.5rem;
 }
 
