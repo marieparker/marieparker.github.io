@@ -1,4 +1,8 @@
 @media screen and (min-width:32.5em) {
+    header {
+        font-size: 1rem;
+    }
+
     nav ul {
         display: flex;
     }
@@ -8,7 +12,7 @@
     }
 
     #logo {
-        width: 50%;
+        width: 40%;
         height: auto;
         min-width: 25em;
     }
