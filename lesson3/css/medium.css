@@ -1,0 +1,15 @@
+@media screen and (min-width:32.5em) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+
+    #logo {
+        width: 50%;
+        height: auto;
+        min-width: 25em;
+    }
+}
