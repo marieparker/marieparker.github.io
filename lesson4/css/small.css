@@ -12,6 +12,40 @@ header {
     background-color: #92BDA3;
 }
 
+.logo {
+    padding: 1rem 0.5rem 1rem 0;
+    width: 50px;
+}
+
+header div {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+}
+
+header div h1, header div h2 {
+    margin: 0.1rem;
+    padding: .75rem;
+    padding-top: 2rem;
+    color: #360101;
+}
+
+#siteName {
+    font-family: 'Sigmar One', serif;
+    font-size: 1.15rem;
+}
+
+#slogan {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.headerText {
+    padding: 0;
+}
+
 footer {
     text-align: center;
 }
@@ -24,40 +58,6 @@ footer a:hover {
     color: blue;
 }
 
-.logo {
-    padding: 1rem 0.5rem 1rem 0;
-    width: 50px;
-}
-
-header div {
-    text-align: center;
-    padding-top: 1rem;
-    padding-right: 0.5rem;
-}
-
-header div h1, h2 {
-    margin: 0.2rem;
-    padding: 1rem;
-    padding-top: 2rem;
-}
-
-#siteName {
-    font-family: 'Sigmar One', serif;
-    font-size: 1.15rem;
-}
-
-#slogan {
-    font-family: 'Lato', sans-serif;
-    font-size: 0.8rem;
-    font-weight: normal;
-    color: #200000;
-    font-style: italic;
-}
-
-.headerText {
-    padding: 0;
-}
-
 nav, main, footer {
     clear: both;
   }
@@ -66,7 +66,6 @@ nav {
     padding: 0;
     background-color: #36453B;
     text-align: center;
-    font-family: 'Lato', sans-serif;
 }
 
 nav button {
@@ -93,6 +92,7 @@ nav ul {
 }
 
 nav ul li {
+    font-family:'Lato', sans-serif;
     padding: 0;
     list-style: none;
     display: none;
@@ -115,6 +115,7 @@ nav ul li a:hover {
 }
 
 main {
+    font-family: 'Lato', sans-serif;
     margin: 1.5rem;
 }
 
