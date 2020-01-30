@@ -1,6 +1,7 @@
 @media screen and (min-width:32.5em) {
     .logo {
         width: 100px;
+        height: auto;
     }
 
     header div {
