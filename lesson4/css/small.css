@@ -84,6 +84,7 @@ nav button:hover {
 
 nav button:active {
     outline: none;
+    border: none;
 }
 
 nav ul {
