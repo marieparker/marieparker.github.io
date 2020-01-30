@@ -106,15 +106,14 @@ main h1 {
 
 main section {
     background-color: #fff;
-    border: 1px solid #36453B;
-    border-radius: 8px;
+    border: 1px solid #92BDA3;
     margin: 1.5rem;
-    padding: 1rem;
+    padding: 0.75rem;
     box-shadow: 5px 5px 5px rgb(182, 182, 182);
 }
 
 hr {
-    box-shadow: 0 2px rgb(182, 182, 182);
+    box-shadow: 0 1px rgb(182, 182, 182);
     max-width: 95%;
 }
 
