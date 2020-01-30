@@ -1,3 +1,7 @@
+body {
+    background-color: rgba(249, 226, 6, 0.2);
+}
+
 header {
     display: flex;
     align-content: center;
@@ -8,6 +12,7 @@ header {
 
 footer {
     text-align: center;
+    color: #200000;
 }
 
 .logo {
@@ -73,6 +78,10 @@ nav ul li {
     display:block
 }
 
+nav button {
+    color: #fff;
+}
+
 nav ul li a {
     display: block;
     padding: 0.5rem;
@@ -96,9 +105,23 @@ main h1 {
 }
 
 main section {
+    background-color: #fff;
     border: 1px solid #36453B;
     border-radius: 8px;
     margin: 1.5rem;
     padding: 1rem;
     box-shadow: 5px 5px 5px rgb(182, 182, 182);
+}
+
+hr {
+    box-shadow: 0 2px rgb(182, 182, 182);
+    max-width: 95%;
+}
+
+footer a{
+    color: #200000;
+}
+
+footer a:hover {
+    color: blue;
 }
