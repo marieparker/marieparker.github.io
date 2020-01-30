@@ -69,10 +69,19 @@ nav {
 }
 
 nav button {
+    width: 100%;
     padding: 0.5rem;
     background-color: transparent;
     border: none;
+    border-top: 1px solid #36453B;
+    color: #fff;
 }
+
+nav button:hover {
+    background-color: rgb(180, 224, 194);
+    color: #200000;
+}
+
 nav ul {
     padding: 0;
     margin-top: 0;
@@ -86,10 +95,6 @@ nav ul li {
 
 .hide li {
     display:block
-}
-
-nav button {
-    color: #fff;
 }
 
 nav ul li a {
