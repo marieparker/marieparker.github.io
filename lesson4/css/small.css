@@ -82,7 +82,7 @@ nav button:hover {
     color: #200000;
 }
 
-nav button:active {
+nav button:focus {
     outline: none;
     border: none;
 }
