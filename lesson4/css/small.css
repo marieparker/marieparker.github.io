@@ -82,6 +82,10 @@ nav button:hover {
     color: #200000;
 }
 
+nav button:active {
+    outline: none;
+}
+
 nav ul {
     padding: 0;
     margin-top: 0;
