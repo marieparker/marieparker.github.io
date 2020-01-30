@@ -2,17 +2,26 @@ body {
     background-color: rgba(249, 226, 6, 0.2);
 }
 
+header, footer {
+    color: #200000;
+}
 header {
     display: flex;
     align-content: center;
     justify-content: center;
     background-color: #92BDA3;
-    color: #200000;
 }
 
 footer {
     text-align: center;
+}
+
+footer a{
     color: #200000;
+}
+
+footer a:hover {
+    color: blue;
 }
 
 .logo {
@@ -117,10 +126,3 @@ hr {
     max-width: 95%;
 }
 
-footer a{
-    color: #200000;
-}
-
-footer a:hover {
-    color: blue;
-}
