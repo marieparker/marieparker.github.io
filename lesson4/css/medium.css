@@ -1,0 +1,33 @@
+@media screen and (min-width:32.5em) {
+    .logo {
+        width: 100px;
+    }
+
+    header div {
+        padding-top: 2rem;
+    }
+
+    #siteName {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    #slogan {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    
+}
