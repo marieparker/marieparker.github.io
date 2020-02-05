@@ -1,0 +1,218 @@
+body {
+    background-color: rgba(249, 226, 6, 0.2);
+}
+
+header, footer {
+    color: #200000;
+}
+header {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #92BDA3;
+}
+
+.logo {
+    padding: 1rem 0.5rem 1rem 1rem;
+    width: 50px;
+}
+
+header div {
+    text-align: center;
+    padding-top: 1rem;
+    padding-right: 0.5rem;
+}
+
+header div h1, header div section {
+    margin: 0.1rem;
+    padding: .75rem;
+    padding-top: 2rem;
+    color: #360101;
+}
+
+#siteName {
+    font-family: 'Sigmar One', serif;
+    font-size: 1.15rem;
+}
+
+#slogan {
+    font-family: 'Lato', sans-serif;
+    font-size: 0.8rem;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.headerText {
+    padding: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: .8rem;
+    margin: 0.5rem;
+}
+
+footer a{
+    color: #200000;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+nav, main, footer {
+    clear: both;
+  }
+
+nav {
+    padding: 0;
+    background-color: #36453B;
+    text-align: center;
+}
+
+nav button {
+    width: 100%;
+    padding: 0.5rem;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #36453B;
+    color: #fff;
+}
+
+nav button:hover {
+    background-color: rgb(180, 224, 194);
+    color: #200000;
+}
+
+nav button:focus {
+    outline: none;
+}
+
+nav ul {
+    padding: 0;
+    margin-top: 0;
+}
+
+nav ul li {
+    font-family:'Lato', sans-serif;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+.hide li {
+    display:block
+}
+
+nav ul li a {
+    display: block;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgb(180, 224, 194);
+    color: #200000;
+}
+
+main {
+    font-family: 'Lato', sans-serif;
+    margin: 1%;
+}
+
+main h2 {
+    color: #524b2e;
+    text-align: center;
+    font-family: 'Sigmar One', serif;
+}
+
+main div {
+    background-color: #fff;
+    border: 1px solid #92BDA3;
+    margin: 0.5rem;
+    padding: 0.75rem;
+    box-shadow: 3px 3px 5px rgba(182, 182, 182, 0.7);
+}
+
+#hero {
+    position: relative;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    margin: 0;
+}
+
+#hero img {
+    max-width: 100%;
+}
+.weathersummary {
+    max-width: 55%;
+    position: absolute;
+    top: 15px;
+    opacity: 0.9;
+    box-shadow: none;
+}
+
+.weathersummary, .weathersummary section div {
+    background-color: #524b2e;
+    color: #fff;
+}
+
+.weathersummary h3 {
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0.25rem;
+}
+
+.weathersummary hr {
+    box-shadow: none;
+    padding: 0.50;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.weathersummary section div {
+    box-shadow: none;
+    border: none;
+    margin: 2px;
+    padding: 0;
+}
+
+.summary {
+    text-align: right;
+}
+
+#photoatt {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-right: 2px;
+}
+
+#photoatt a {
+    text-decoration: none;
+    color: #000;
+    background-color: rgba(182, 182, 182, 0.7);
+    font-style: italic;
+    font-size: 0.5rem;
+}
+
+#photoatt a:hover {
+    color: blue;
+}
+hr {
+    box-shadow: 0 1px rgb(182, 182, 182);
+    max-width: 98%;
+}
+
+#forecast {
+    display: none;
+}
+
+#article {
+    position: relative;
+}
