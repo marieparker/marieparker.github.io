@@ -41,6 +41,13 @@
     max-width: 500px;
     margin: auto;
     margin-top: 1rem;
+    text-align: center;
+}
+
+.forecast h3 {
+    grid-column: span 5;
+    margin: 0;
+    margin-bottom: 0.5rem;
 }
 
 .forecast img {
@@ -52,7 +59,6 @@
 .days {
     box-shadow: none;
     margin: 0;
-    text-align: center;
     align-content: center;
     background-color: rgba(249, 226, 6, 0.2);
 }
