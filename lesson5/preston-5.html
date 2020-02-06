@@ -30,7 +30,7 @@
         <button onclick="toggleMenu()">&#9776; Menu</button>
         <ul id="navMenu">
             <li><a href="">Home</a></li>
-            <li><a href="">Preston</a></li>
+            <li><a class="current" href="preston-5.html">Preston</a></li>
             <li><a href="">Soda Springs</a></li>
             <li><a href="">Fish Haven</a></li>
             <li><a href="">Storm Center</a></li>
@@ -40,7 +40,7 @@
     <script src="js/toggle.js"></script>
     <main>
         <h2>Preston</h2>
-        <div id="hero"> <img src="images/PrestonID1.jpg"> 
+        <div id="hero"> <img src="images/PrestonID1.jpg" alt="Downtown Preston"> 
             <div class="weathersummary">
                 <h3>Weather Summary</h3><hr>
                 <section class="weather">
@@ -61,8 +61,26 @@
                     Photo Credit: Ken Lund </a>
             </section>
         </div>
-        <div id="forecast">5 Day ForeCast</div>
-        <div id="article">Article</div>
+        <div class="forecast">
+            <div class="days label" id="day1">Mon</div>
+            <div class="days label" id="day2">Tues</div>
+            <div class="days label" id="day3">Wed</div>
+            <div class="days label" id="day4">Thurs</div>
+            <div class="days label" id="day5">Fri</div>
+            <div class="days"><img src="images/SunSmall.png">&deg;</div>
+            <div class="days"><img src="images/partlycloudy.png">&deg;</div>
+            <div class="days"><img src="images/partlycloudy.png">&deg;</div>
+            <div class="days"><img src="images/snow.png">&deg;</div>
+            <div class="days"><img src="images/SunSmall.png">&deg;</div>
+        </div>
+        <div id="article">
+            <h3>Article about sunscreen</h3>
+            <img src="images/Hike1.jpg" alt="Family Hiking">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Porro quisquam, consequatur sed modi sapiente qui voluptatibus magnam 
+                laboriosam atque odit saepe animi tenetur, eaque, possimus vitae 
+                fugiat sint ipsum eveniet.</p>
+        </div>
         <div id="contact">Contact Information</div>
     </main>
     <hr>
