@@ -233,4 +233,5 @@ hr {
 /*Begin article CSS formatting, see above for image formatting*/
 #article h3 {
     margin-bottom: 0.25rem;
+    font-family: 'Sigmar One', serif;
 }
