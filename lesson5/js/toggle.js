@@ -2,7 +2,7 @@ var day = new Date();
 var d = day.getDay();    
 
 if (d !== 5) {
-    document.getElementsByClassName("pancakes")[0].classList.toggle("notyet");
+    document.getElementsByClassName("notyet")[0].classList.toggle("pancakes");
 }
 
 console.log(d);

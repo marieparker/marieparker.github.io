@@ -3,7 +3,12 @@ body {
     color: #200000;
 }
 
+.notyet {
+    display: none;
+}
+
 .pancakes {
+    display: block;
     background-color: #f9e206;
     color: #200000;
     text-align: center; 
@@ -17,10 +22,6 @@ body {
 .pancakes p {
     font-family: 'Lato', sans-serif;
     margin: 0.2rem;
-}
-
-.notyet {
-    display: none;
 }
 
 header, footer {
