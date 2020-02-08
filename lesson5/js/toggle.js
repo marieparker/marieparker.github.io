@@ -6,3 +6,7 @@ if (d !== 5) {
 }
 
 console.log(d);
+
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("hide");
+}
