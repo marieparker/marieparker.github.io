@@ -148,7 +148,8 @@ nav .current {
 /*begin main CSS*/
 main {
     font-family: 'Lato', sans-serif;
-    margin: 1%;
+    margin: auto;
+    max-width: 1000px;
 }
 
 main h2 {
@@ -172,7 +173,7 @@ main div {
     padding: 0;
     border: none;
     box-shadow: none;
-    margin: 0;
+    margin: .1rem;
 }
 
 #hero img, #article img {
@@ -248,7 +249,42 @@ hr {
 }
 
 /*Begin article CSS formatting, see above for image formatting*/
-#article h3 {
+#article h3, #contact h3 {
     margin-bottom: 0.25rem;
     font-family: 'Sigmar One', serif;
+}
+
+/*Begin Contact CSS*/
+#contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact h3 {
+    grid-column: span 2;
+}
+
+#contact img {
+    display: none;
+}
+
+.information {
+    border: none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+.socialmedia {
+    display: flex;
+}
+
+.socialmedia a img {
+    flex: 1;
+    max-width: 35px;
+}
+
+.address, .phonenumber, .socialmedia {
+    margin: .5rem;
+    margin-bottom: 1.5rem;
 }

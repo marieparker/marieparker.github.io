@@ -77,8 +77,13 @@
 #article img {
     box-shadow: 0 0 20px rgb(146, 146, 146);
     float: right;
-    max-width: 300px;
+    max-width: 350px;
     margin: .75rem;
 }
     
+#contact img {
+    display: block;
+    width: 80%;
+    margin: .5rem;
+}
 }
