@@ -280,6 +280,7 @@ h3 {
 
 .socialmedia a img {
     flex: 1;
+    margin: 0.2rem;
     max-width: 35px;
 }
 
