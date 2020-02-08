@@ -1,7 +1,7 @@
 var day = new Date();
 var d = day.getDay();    
 
-if (d !== 5) {
+if (d == 5) {
     document.getElementsByClassName("notyet")[0].classList.toggle("pancakes");
 }
 
