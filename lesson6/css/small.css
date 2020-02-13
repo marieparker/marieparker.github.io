@@ -176,9 +176,10 @@ main div {
     margin: .1rem;
 }
 
-#hero picture, #article img {
+.heroImage, #article img {
     max-width: 100%;
 }
+
 .weathersummary {
     max-width: 55%;
     position: absolute;
