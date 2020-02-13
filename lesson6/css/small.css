@@ -218,25 +218,6 @@ main div {
     text-align: right;
 }
 
-/*Photo attribution label and link*/
-#photoatt {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    padding-right: 2px;
-}
-
-#photoatt a {
-    text-decoration: none;
-    color: #000;
-    background-color: rgba(182, 182, 182, 0.7);
-    font-style: italic;
-    font-size: 0.5rem;
-}
-
-#photoatt a:hover {
-    color: blue;
-}
 hr {
     box-shadow: 0 1px rgb(182, 182, 182);
     max-width: 98%;

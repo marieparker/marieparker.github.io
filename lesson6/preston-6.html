@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
     <link rel="shortcut icon" href="/favicon.ico">
-    <link href="https://fonts.googleapis.com/css?family=Lato%7cSigmar+One%7cSource+Serif+Pro&display=swap" rel="stylesheet">
+    
     
     <link href="css/small.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
@@ -46,13 +46,11 @@
     <main>
         <h2>Preston</h2>
         <div id="hero"> 
-            <img srcset="images/FranklinSmall.jpg 400w, 
-                        images/FranklinMedium.jpg 800w, 
-                        images/FranklinLarge.jpg 1500w" 
-                media="(max-width: 500px) 400w,
-                   (max-width: 750px) 800w,
-                   (min-width: 751px) 1500w"
-                src="images/FranklinLarge.jpg" alt="Forest Sunrise"> 
+            <picture>
+                <source media="(max-width: 500px)" srcset="images/FranklinSmall.jpg">
+                <source media="(max-width: 750px)" srcset="images/FranklinMedium.jpg">
+                <img src="images/FranklinLarge.jpg" alt="Forest Sunrise">
+            </picture>
             <div class="weathersummary">
                 <h3>Weather Summary</h3><hr>
                 <section class="weather">
@@ -69,10 +67,6 @@
                 </section>
                 <script src="js/windchill.js"></script>
             </div>
-            <!--<section id="photoatt">
-                <a href="https://www.flickr.com/photos/kenlund/1122957169/in/photostream/">
-                    Photo Credit: Ken Lund </a>
-            </section>-->
         </div>
         <div class="forecast">
             <h3>5 Day Forecast</h3>
