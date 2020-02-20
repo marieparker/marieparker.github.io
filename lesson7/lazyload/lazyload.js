@@ -11,7 +11,10 @@ function preloadImage(img) {
 		img.removeAttribute('data-src');
 }
 }
-const imgOptions = {};
+const imgOptions = {
+	threshold: 0,
+	rootMargin: "0px 0px 50px 0px"
+};
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     entries.forEach(entry => {
