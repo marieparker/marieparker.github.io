@@ -267,6 +267,31 @@ h3 {
 }
 
 .address, .phonenumber, .socialmedia {
-    margin: .5rem;
+    margin: 0.5rem;
     margin-bottom: 1.5rem;
+}
+
+/*Begin Gallery Page CSS*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    justify-items: center;
+    padding: 0.3rem;
+}
+
+.gallery picture {
+    background-color: white;
+    border: solid 1px grey;
+}
+
+.gallery picture img {
+    max-width: 100%;
+}
+
+.gallery picture p {
+    padding: 0.3rem;
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
 }

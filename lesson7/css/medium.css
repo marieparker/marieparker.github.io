@@ -86,4 +86,15 @@
     width: 80%;
     margin: .5rem;
 }
+
+/*Begin gallery page CSS*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.gallery h2 {
+    grid-column: span 2;
+}
 }
