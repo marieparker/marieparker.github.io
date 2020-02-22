@@ -6,14 +6,14 @@ function preloadImage(img) {
         return;
     }
 
-	img.src = src;
+	img.srcset = src;
 	img.onload = () => {
-		img.removeAttribute('data-src');
+        img.removeAttribute("data-src");
 }
 }
 const imgOptions = {
 	threshold: 0,
-	rootMargin: "0px 0px 50px 0px"
+	rootMargin: "0px 0px -50px 0px"
 };
 
 const imgObserver = new IntersectionObserver((entries, imgObserver) => {
