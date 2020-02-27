@@ -1,0 +1,24 @@
+@media screen and (min-width: 60em) {
+
+#siteName {
+    font-size: 3rem;
+}
+
+#photoatt a {
+    font-size: 1rem;
+}
+
+/*Begin Gallery Page CSS*/
+.gallery {
+    grid-template-columns: 1fr 1fr 1fr
+}
+
+.gallery h2 {
+    grid-column: span 3;
+}
+
+.gallery span:hover {
+    box-shadow: 0 0 35px rgba(31, 30, 30, 0.7);
+}
+
+}

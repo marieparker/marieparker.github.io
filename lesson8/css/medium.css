@@ -1,0 +1,100 @@
+@media screen and (min-width:32.5em) {    
+    .logo {
+        width: 100px;
+        height: auto;
+    }
+
+    header div {
+        padding-top: 2rem;
+    }
+
+    #siteName {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    #slogan {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    nav button {
+        display: none;
+    }
+
+    #photoatt a {
+        font-size: 0.75rem;
+    }
+
+    /*Begin 5 day forecast CSS*/
+.forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.forecast h3 {
+    grid-column: span 5;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+.forecast img {
+    display: block;
+    max-width: 60%;
+    margin: auto;
+}
+
+.days {
+    box-shadow: none;
+    margin: 0;
+    align-content: center;
+    background-color: rgba(249, 226, 6, 0.2);
+}
+
+.label {
+    background-color: #92BDA3;
+    border: 1px solid #524b2e;
+    border-radius: 5px 5px 0 0;
+}
+
+/*Begin article CSS*/
+#article {
+    overflow: hidden;
+}
+
+#article img {
+    box-shadow: 0 0 20px rgb(146, 146, 146);
+    float: right;
+    max-width: 350px;
+    margin: .75rem;
+}
+    
+.contact #map {
+    display: block;
+    width: 80%;
+    margin: .5rem;
+}
+
+/*Begin gallery page CSS*/
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+.gallery h2 {
+    grid-column: span 2;
+}
+}
