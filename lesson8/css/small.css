@@ -396,3 +396,8 @@ form #ratingvalue {
     font-size: 1.5rem;
 }
 
+/*Begin Thank you page CSS*/
+.thanks h2 {
+    text-align: left;
+    color: #200000;
+}

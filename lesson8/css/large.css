@@ -21,4 +21,9 @@
     box-shadow: 0 0 35px rgba(31, 30, 30, 0.7);
 }
 
+/*Begin Strom Center CSS*/
+form label.sbs {
+    padding: 0.2rem;
+}
+
 }
