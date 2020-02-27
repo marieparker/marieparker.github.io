@@ -325,4 +325,78 @@ h3 {
     font-style: italic;
 }
 
+/*Begin Storm Center Form CSS*/
+
+form fieldset {
+    margin: auto;
+    border-radius: 10px;
+    margin: 1rem 1rem;
+    border: solid 1px #36453B;
+    background-color: white;
+}
+
+fieldset legend {
+    font-family: 'Sigmar One', serif;
+    color: #524b2e;
+}
+
+form label {
+    margin: 0 1rem 0 0;
+}
+
+.top {
+    display: block;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+}
+
+form label.top input {
+    display: block;
+    border: solid 1 px #999;
+    border-radius: 4px;
+    margin: 0 0 0 0.2rem;
+    padding: .75rem;
+    background-color: rgba(146, 189, 163, 0.4);
+    font-size: 0.8rem;
+    padding: 0.6rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+.flexly {
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+}
+
+form #ratingvalue {
+    display: inline;
+    border: none;
+	margin: 0 15px;
+}
+
+#ratingvalue:hover {
+    box-shadow: none;
+}
+
+#comments {
+    height: 100px;
+}
+
+#reportBtn {
+    border: none;
+    margin: 1.25rem 1rem 1.5rem 1rem;
+    background-color: #36453B;
+    padding: 0.75rem;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.5rem;
+}
 
