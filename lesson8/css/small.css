@@ -371,12 +371,20 @@ form label.sbs {
 }
 
 .flexly {
+    border: none;
+    box-shadow: none;
     display: flex;
     align-items: center;
     max-width: fit-content;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
-form #ratingvalue {
+label.flexly {
+    display: block;
+}
+
+label.flexly #ratingvalue {
     display: inline;
     border: none;
 	margin: 0 15px;
