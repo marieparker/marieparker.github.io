@@ -48,7 +48,7 @@
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label class="top">Full Name* <input type="text" name="name" required></label>
+                <label class="top">Full Name* <input type="text" name="name" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@provider.com"></label>
                 <label class="top">Phone Number* <input type="tel" name="phone" required></label>
                 <label class="top">Zip Code* <input type="number" name="zip" required></label>
