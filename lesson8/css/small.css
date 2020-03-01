@@ -378,15 +378,16 @@ form label.sbs {
     max-width: fit-content;
     margin-right: 0;
     margin-bottom: 0;
-    
-}
-
-label.flexly {
     display: block;
 }
 
+#rating {
+    padding: 0;
+}
+
 #ratingvalue {
-	margin: 0 0.2rem;
+    display: block;
+	margin-left: 0.2rem;
 }
 
 #ratingvalue:hover {
