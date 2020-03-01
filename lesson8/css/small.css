@@ -306,7 +306,7 @@ h3 {
     filter: blur(0.2rem);
 }
 
-.gallery span {
+section.pictureBox {
     display: block;
     background-color: white;
     border: solid 1px grey;
@@ -319,7 +319,7 @@ h3 {
     transition: filter 2s;
 }
 
-.gallery span p {
+.gallery section p {
     padding: 0.3rem;
     font-family: 'Lato', sans-serif;
     font-style: italic;

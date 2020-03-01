@@ -17,7 +17,7 @@
     grid-column: span 3;
 }
 
-.gallery span:hover {
+.gallery section:hover {
     box-shadow: 0 0 35px rgba(31, 30, 30, 0.7);
 }
 
