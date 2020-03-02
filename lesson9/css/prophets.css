@@ -44,7 +44,7 @@ section img {
     display: block;
     margin: auto;
     margin-top: 15px;
-    max-width: 175px;
+    max-width: 50%;
     box-shadow: 0 0 15px #200000;
 }
 
