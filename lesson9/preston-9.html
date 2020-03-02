@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Preston Weather</title>
+    <meta name="description" content="Preston Weather Information Page">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <section id="pancakes">
+            <div>Saturday = Preston Pancakes in the Park!</div>
+            <p>9:00 a.m. at the city park pavilion.</p>
+            <script src="js/toggle.js"></script>
+    </section>
+    <header>
+        <img class="logo" src="images/SunSmall.png" alt="Sunshine Logo">
+        <div>
+            <h1 id="siteName" class="headerText">Sunshine Weather</h1>
+            <section id="slogan" class="headerText">Find the Sunshine</section>
+        </div>
+    </header>    
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navMenu">
+            <li><a href="">Home</a></li>
+            <li><a class="current" href="preston-9.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="stormcenter-9.html">Storm Center</a></li>
+            <li><a href="gallery-9.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/toggle.js"></script>
+    <main>
+        <h2>Preston</h2>
+        <div id="hero"> 
+            <picture>
+                <source class="heroImage" media="(max-width: 500px)" srcset="images/PrestonID500.jpg">
+                <source class="heroImage" media="(max-width: 750px)" srcset="images/PrestonID800.jpg">
+                <img class="heroImage" src="images/PrestonID1600.jpg" alt="Downtown Preston Idaho">
+            </picture>
+            <div class="weathersummary">
+                <h3>Weather Summary</h3><hr>
+                <section class="weather">
+                    <div class="summary">Currently:</div>
+                    <div class="summaryvalue">Sunny</div>
+                    <div class="summary">High:</div>
+                    <div class="summaryvalue"><span id="Temp">29</span>&deg;</div>
+                    <div class="summary">Wind Chill:</div>
+                    <div class="summaryvalue"><span id="windChill"></span></div>
+                    <div class="summary">Humidity:</div>
+                    <div class="summaryvalue">25%</div>
+                    <div class="summary">Wind Speed:</div>
+                    <div class="summaryvalue"><span id="windSpeed">5</span> mph</div>
+                </section>
+            </div>
+            <section id="photoatt">
+                <a href="https://www.flickr.com/photos/kenlund/1122957169/in/photostream/">
+                    Photo Credit: Ken Lund </a>
+            </section>
+        </div>
+        <div class="forecast">
+            <h3>5 Day Forecast</h3>
+            <div class="days label" id="day1">Mon</div>
+            <div class="days label" id="day2">Tues</div>
+            <div class="days label" id="day3">Wed</div>
+            <div class="days label" id="day4">Thurs</div>
+            <div class="days label" id="day5">Fri</div>
+            <div class="days"><img src="images/SunSmall.png" alt="Sunshine">&deg;</div>
+            <div class="days"><img src="images/partlycloudy.png" alt="Partly Cloudy">&deg;</div>
+            <div class="days"><img src="images/partlycloudy.png" alt="Partly Cloudy">&deg;</div>
+            <div class="days"><img src="images/snow.png" alt="Snow">&deg;</div>
+            <div class="days"><img src="images/SunSmall.png" alt="Sunshine">&deg;</div>
+        </div>
+        <div id="article">
+            <h3>Sunshine: Stay Safe Out There</h3>
+            <img src="images/Hike1.jpg" alt="Family Hiking">
+            <p>Spring and summer are just around the corner. 
+                As you start thinking about heading outside, planning family camping stays
+                and day-trips to your favorite hiking spot, be sure you stay safe.
+                Applying sunscreen of at least SPF 15 whenever you plan on being outside, 
+                <a href="https://www.skincancer.org/skin-cancer-prevention/sun-protection/sunscreen/">
+                can reduce the risk of skin cancer by 40-50%.</a> </p>
+                <p>When the sun is shining (which we all love), it's easy to remember to stay covered. 
+                You grab your hat to keep the sun off your face, maybe long sleeves if it's not too hot 
+                to protect your arms. But no one really thinks about covering up when it's cloudy.</p>
+                <p>Cloud cover is deceptive. It makes us think we are in 'shade' and protected from the sun. 
+                Although light may be dimmer, the UV rays that can cause sunburn and increase the risk of skin cancer 
+                still pentrate through the clouds. Nothing can dampen a vacation faster than having to stay inside because 
+                your skin resembles the color of a stop sign, and it hurts to move.</p>
+                <p>So, stay safe. Cover up. And use sunscreen, so you can continue enjoying the outdoors for days on end 
+                without those horrible days suffering from sunburn.</p>
+        </div>
+        <div class="contact">
+            <h3>Contact Information</h3>
+            <img id ="map" src="images/ContactMap.jpg" alt="Map of Southeast Idaho">
+            <div class="information">
+                <section class="address">10 N State Street<br/>
+                    Preston, ID 83263
+                </section>
+                <section class="phonenumber">&#x260f; (208)555-6378<br/>
+                    &#9993; sunshineweather@swi.com
+                </section>
+                <section class="socialmedia">
+                    <a href="https://www.facebook.com"><img src="images/Facebook.png" alt="Facebook Icon"></a>
+                    <a href="https://www.instagram.com"><img src="images/Instagram.png" alt="Instagram Icon"></a>
+                    <a href="https://www.twitter.com"><img src="images/Twitter.png" alt="Twitter Icon"></a>
+                    <a href="https://www.pinterest.com"><img src="images/Pinterest.png" alt="Pinterest Icon"></a>
+                </section>
+            </div>
+        </div>
+    </main>
+    <hr>
+    <footer>
+        &copy; <span id="currentYear"></span> Sunshine Weather| Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a>
+            <br/><span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
+    </footer>
+    
+    <script src="js/windchill.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+            families: ['Lato', 'Sigmar One']
+        }
+      });
+    </script>
+</body>
+
+</html>
