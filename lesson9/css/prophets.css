@@ -1,4 +1,4 @@
-h1, h2, p {
+h1, h2, p, footer {
     text-align: center;
 }
 
@@ -46,6 +46,10 @@ section img {
     margin-top: 15px;
     max-width: 60%;
     box-shadow: 0 0 15px #200000;
+}
+
+footer {
+    margin: 0.75rem;
 }
 
 @media screen and (min-width: 32.5em) {
