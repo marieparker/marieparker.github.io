@@ -24,6 +24,14 @@ header h1 {
     height: auto;
 }
 
+.wireframe {
+    line-height: 2rem;
+}
+
+ul li {
+    padding: 0.2rem;
+}
+
 footer {
     font-size: 1rem;
     line-height: 1.25rem;
