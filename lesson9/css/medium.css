@@ -99,26 +99,37 @@
 }
 
 /*Begin Home page Town Info CSS*/
-main div div.townCard {
-    display: flex;
+.welcomeWords {
+    max-width: 45%;
+    right: 10px;
+    font-size: 1em;
+    padding: 1rem 1.5rem;
+    line-height: 1.5em;
+    margin: 0.5em;
 }
 
-main div.townInfo:nth-child(even) {
+main div div.townCard {
+    display: flex;
+    flex: 1 1 100%;
+}
+
+main div div.row2 {
     flex-direction: row-reverse;
 }
 
-main div.townInfo:nth-child(odd) {
+main div div.row1, main div div.row3 {
     text-align: right;
 }
 
 main div div img {
     max-width: 50%;
-    padding-top: 2%;
+    margin: auto;
 }
 
 main div div section {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 }
