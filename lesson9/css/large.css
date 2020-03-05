@@ -48,6 +48,7 @@ main div.townInfo {
 main div div.townCard {
     display: block;
     padding: 0;
+    height: fit-content;
 }
 
 main div div.townCard:nth-child(odd) {
@@ -59,9 +60,10 @@ main div div section {
 }
 
 main div div img {
-    display: block;
-    margin: auto;
+    display: inline;
+    margin: 0 auto;
     max-width: 100%;
+    vertical-align: bottom;
 }
 
 }
