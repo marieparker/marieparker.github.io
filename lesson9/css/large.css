@@ -32,12 +32,12 @@ main div.townInfo {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-main div div {
+main div div.townCard {
     display: block;
     padding: 0;
 }
 
-main div:nth-child(odd) {
+main div div.townCard:nth-child(odd) {
     text-align: left;
 }
 
@@ -46,11 +46,10 @@ main div div section {
     padding-right: 1rem;
 }
 
-img {
+main div div img {
     display: block;
     margin: auto;
     max-width: 100%;
-    
 }
 
 }

@@ -14,7 +14,7 @@ fetch(requestURL)
         rowNumber = rowNumber + 1;
         
         let card = document.createElement('div');
-        card.setAttribute('class', 'row' + rowNumber);
+        card.setAttribute('class', 'row' + rowNumber + ' townCard');
 
         let info = document.createElement('section');
         card.appendChild(info);
