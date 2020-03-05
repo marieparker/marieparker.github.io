@@ -26,4 +26,31 @@ form label.sbs {
     padding: 0.2rem;
 }
 
+/*Begin Home Page Town Info CSS*/
+main div.townInfo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main div div {
+    display: block;
+    padding: 0;
+}
+
+main div:nth-child(odd) {
+    text-align: left;
+}
+
+main div div section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    
+}
+
 }

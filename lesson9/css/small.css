@@ -409,3 +409,16 @@ form label.sbs {
     text-align: left;
     color: #200000;
 }
+
+/*Begin Home Page Town Info CSS*/
+
+main div.townInfo {
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+main div div img {
+    display: block;
+    max-width: 100%;
+}
