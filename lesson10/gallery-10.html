@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Weather Gallery</title>
+    <meta name="description" content="Weather Gallery Page">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/SunSmall.png" alt="Sunshine Logo">
+        <div >
+            <h1 id="siteName" class="headerText">Sunshine Weather</h1>
+            <section id="slogan" class="headerText">Find the Sunshine</section>
+        </div>
+    </header>    
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston-10.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a href="stormcenter-10.html">Storm Center</a></li>
+            <li><a class="current" href="gallery-10.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/toggle.js"></script>
+    <main class="gallery">
+        <h2>Picture Gallery</h2>
+        <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/lightningStorm500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/lightningStorm900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+                data-src="images/lightningStorm1500.jpg" alt="Lightning Storm">
+        </picture>
+        <p>Lightning storm.</p>
+        </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/SunnyLake500.jpg">
+                <source class="pictures" media="(max-width:800px)" srcset="images/SunnyLake900.jpg">
+                <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+                    data-src="images/SunnyLake1500.jpg" alt="Warm Sunny Lake Day">       
+        </picture>
+        <p>Sunny day at the lake.</p>
+      </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/Sunrise500.jpg">
+                <source class="pictures" media="(max-width:800px)" srcset="images/Sunrise900.jpg">
+                <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+                    data-src="images/Sunrise1500.jpg" alt="Path in winter snow">
+        </picture>
+        <p>Sunrise to burn away the fog.</p>
+      </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/rainbow500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/rainbow900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+            data-src="images/rainbow1500.jpg" alt="Rainbow">
+        </picture>
+        <p>Rainbow after a storm.</p>
+      </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/SnowBridge500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/SnowBridge900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+            data-src="images/SnowBridge1500.jpg" alt="Bridge covered in falling snow">
+        </picture>
+        <p>Winter snow strom at the bridge.</p>
+      </section>   
+      <section class="pictureBox">  
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/PurpleClouds500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/PurpleClouds900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+            data-src="images/PurpleClouds1500.jpg" alt="Purple and orange clouds at sunset">
+        </picture>
+        <p>Beautiful beginnings of a storm.</p>
+      </section> 
+      <section class="pictureBox">  
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/FallDay500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/FallDay900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+            data-src="images/FallDay1500.jpg" alt="Rainbow">
+        </picture>
+        <p>Cool, crisp fall day.</p>
+      </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/SnowPath500.jpg">
+            <source class="pictures" media="(max-width:800px)" srcset="images/SnowPath900.jpg">
+            <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+                data-src="images/SnowPath1100.jpg" alt="Path in winter snow">
+        </picture>
+        <p>Winter wonderland snow path.</p>
+      </section>
+      <section class="pictureBox">
+        <picture>
+            <source class="pictures" media="(max-width:500px)" srcset="images/StormClouds500.jpg">
+                <source class="pictures" media="(max-width:800px)" srcset="images/StormClouds900.jpg">
+                <img src="https://via.placeholder.com/300x400/?text=Placeholder" 
+                    data-src="images/StormClouds1500.jpg" alt="Dark summer rain clouds">
+        </picture>
+        <p>Dark summer rain clouds.</p>
+      </section>
+    </main>
+    <hr>
+    <footer>
+        &copy; <span id="currentYear"></span> Sunshine Weather| Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a>
+            <br/><span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
+    </footer>
+    
+    <script src="js/lazyload.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+            families: ['Lato', 'Sigmar One']
+        }
+      });
+    </script>
+</body>
+
+</html>
