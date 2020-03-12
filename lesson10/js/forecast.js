@@ -26,7 +26,7 @@ for (i=0; i<40; i++) {
         document.getElementById('icon' + g).setAttribute('src', imagesrc);
         document.getElementById('icon' + g).setAttribute('alt', desc);
 
-        document.getElementById('temp' + g).textContent = forecastData.list[i].main.temp; 
+        document.getElementById('temp' + g).textContent = Math.round(forecastData.list[i].main.temp); 
         g=g+1;}
 }
 
