@@ -1,8 +1,14 @@
-const temp = document.getElementById('Temp').textContent;
+const temp = document.getElementById('currentTemp').textContent;
 const wind = document.getElementById('windSpeed').textContent;
+
+console.log(temp);
+console.log(wind);
 
 var t = parseFloat(temp);
 var s = parseFloat(wind);
+
+console.log(t);
+console.log(s);
 
 var windChill;
 
