@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Storm Center</title>
+    <meta name="description" content="Report a Storm in your area">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+    <link rel="shortcut icon" href="../favicon.ico">
+    
+    
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <img class="logo" src="images/SunSmall.png" alt="Sunshine Logo">
+        <div>
+            <h1 id="siteName" class="headerText">Sunshine Weather</h1>
+            <section id="slogan" class="headerText">Find the Sunshine</section>
+        </div>
+    </header>    
+    <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="navMenu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html">Preston</a></li>
+            <li><a href="">Soda Springs</a></li>
+            <li><a href="">Fish Haven</a></li>
+            <li><a class="current" href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <script src="js/toggle.js"></script>
+    <main>
+      <div class="thanks">
+        <h2>Thank you!</h2>
+        <p>Your storm information has been reported.</p>
+      </div>
+    </main>
+    <hr>
+    <footer>
+        &copy; <span id="currentYear"></span> Sunshine Weather| Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a>
+            <br/><span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
+    </footer>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+            families: ['Lato', 'Sigmar One']
+        }
+      });
+    </script>
+</body>
+
+</html>
