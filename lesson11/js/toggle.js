@@ -2,7 +2,7 @@ var day = new Date();
 var d = day.getDay();    
 
 if (d != 5) {
-    document.getElementById("pancakes").style.display = 'none';
+    document.getElementById("townfun").style.display = 'none';
 }
 
 function toggleMenu() {

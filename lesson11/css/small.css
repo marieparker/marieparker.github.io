@@ -3,7 +3,7 @@ body {
     color: #200000;
 }
 
-#pancakes {
+#townfun {
     display: block;
     background-color: #f9e206;
     color: #200000;
@@ -11,11 +11,11 @@ body {
     padding: 0.5rem;
 }
 
-#pancakes div {
+#townfun div {
     font-family: 'Sigmar One', serif;
 }
 
-#pancakes p {
+#townfun p {
     font-family: 'Lato', sans-serif;
     margin: 0.2rem;
 }
