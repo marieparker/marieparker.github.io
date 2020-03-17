@@ -12,9 +12,14 @@ fetch(requestURL)
         if (towns[i].name == 'Preston') {
         
         rowNumber = rowNumber + 1;
+
+        let cardlink = document.createElement('a');
+        cardlink.setAttribute('href', 'preston.html');
+        cardlink.setAttribute('class', 'townlink')
         
         let card = document.createElement('div');
         card.setAttribute('class', 'row' + rowNumber + ' townCard');
+        cardlink.appendChild(card);
 
         let info = document.createElement('section');
         card.appendChild(info);
@@ -45,7 +50,7 @@ fetch(requestURL)
         card.appendChild(image);
         
         
-        document.querySelector('div.townInfo').appendChild(card); }
+        document.querySelector('div.townInfo').appendChild(cardlink); }
         //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
 
         else {
@@ -56,9 +61,14 @@ fetch(requestURL)
           if (towns[i].name == "Soda Springs") {
           
           rowNumber = rowNumber + 1;
+
+          let cardlink = document.createElement('a');
+          cardlink.setAttribute('href', 'sodasprings.html');
+          cardlink.setAttribute('class', 'townlink')
           
           let card = document.createElement('div');
           card.setAttribute('class', 'row' + rowNumber + ' townCard');
+          cardlink.appendChild(card);
   
           let info = document.createElement('section');
           card.appendChild(info);
@@ -89,7 +99,7 @@ fetch(requestURL)
           card.appendChild(image);
           
           
-          document.querySelector('div.townInfo').appendChild(card); }
+          document.querySelector('div.townInfo').appendChild(cardlink); }
           //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
   
           else {
@@ -100,9 +110,14 @@ fetch(requestURL)
             if (towns[i].name == "Fish Haven") {
             
             rowNumber = rowNumber + 1;
+
+            let cardlink = document.createElement('a');
+            cardlink.setAttribute('href', 'fishhaven.html');
+            cardlink.setAttribute('class', 'townlink')
             
             let card = document.createElement('div');
             card.setAttribute('class', 'row' + rowNumber + ' townCard');
+            cardlink.appendChild(card);
     
             let info = document.createElement('section');
             card.appendChild(info);
@@ -133,7 +148,7 @@ fetch(requestURL)
             card.appendChild(image);
             
             
-            document.querySelector('div.townInfo').appendChild(card); }
+            document.querySelector('div.townInfo').appendChild(cardlink); }
             //document.querySelector('div.row' + [rowNumber]).appendChild(info);   }
     
             else {

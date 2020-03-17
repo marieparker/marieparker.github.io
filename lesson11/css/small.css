@@ -447,6 +447,11 @@ main div.townInfo {
     background-color: transparent;
 }
 
+a.townlink:link, a.townlink:visited {
+    text-decoration: none;
+    color: #200000;
+}
+
 main div div img {
     display: block;
     max-width: 100%;
