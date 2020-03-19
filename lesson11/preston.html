@@ -25,11 +25,11 @@
             <script src="js/toggle.js"></script>
     </section>
     <header>
-        <img class="logo" src="images/SunSmall.png" alt="Sunshine Logo">
+        <a id="logolink" href="index.html"><img class="logo" src="images/SunSmall.png" alt="Sunshine Logo">
         <div>
             <h1 id="siteName" class="headerText">Sunshine Weather</h1>
             <section id="slogan" class="headerText">Find the Sunshine</section>
-        </div>
+        </div></a>
     </header>    
     <nav>
         <button onclick="toggleMenu()">&#9776; Menu</button>
@@ -86,6 +86,11 @@
             <div class="days"><img id="icon5" alt=""><span id="temp5"></span>&deg;F</div>
         </div>
 
+        <div id="townevents">
+            <h3>Upcoming Events</h3>
+            <hr>
+        </div>
+
         <div id="article">
             <h3>Sunshine: Stay Safe Out There</h3>
             <img src="images/Hike1.jpg" alt="Family Hiking">
@@ -133,6 +138,7 @@
     
     <script src="js/weatherPreston.js"></script>
     <script src="js/forecastPreston.js"></script>
+    <script src="js/eventsPreston.js"></script>
     
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
     <script>

@@ -50,6 +50,11 @@ header div h1, header div section {
     color: #360101;
 }
 
+#logolink {
+    text-decoration: none;
+    display: flex;
+}
+
 #siteName {
     font-family: 'Sigmar One', serif;
     font-size: 1.15rem;
@@ -173,7 +178,7 @@ main div {
     padding: 0;
     border: none;
     box-shadow: none;
-    margin: .1rem;
+    margin: 0.2rem;
 }
 
 .heroImage, #article img {
@@ -459,4 +464,13 @@ main div div img {
 
 main div div section h2 {
     margin-top: 0;
+}
+
+/*Upcoming Events CSS*/
+#townevents {
+    text-align: center;
+    border-width: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 0 0 20px gray;
 }
