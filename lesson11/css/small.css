@@ -260,6 +260,21 @@ h3 {
     font-family: 'Sigmar One', serif;
 }
 
+#garden h3 {
+    margin: 1rem;
+}
+
+#author {
+    font-style: italic;
+    text-align: right;
+}
+
+#garden img {
+    box-shadow: 0 0 20px rgb(146, 146, 146);
+    float: left;
+    margin: 0.7rem;
+}
+
 /*Begin Contact CSS*/
 .contact {
     display: grid;

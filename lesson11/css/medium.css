@@ -80,6 +80,19 @@
     max-width: 350px;
     margin: .75rem;
 }
+
+#article p, #garden p {
+    line-height: 1.45em;
+}
+
+#garden {
+    overflow: hidden;
+}
+
+#garden img {
+    max-height: 550px;
+    margin: .75rem;
+}
     
 .contact #map {
     display: block;
