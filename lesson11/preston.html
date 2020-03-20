@@ -103,18 +103,19 @@
             <img class="example" src="images/FallDay500.jpg" alt="Fall Day">
           </div>
           
-          <form method="get" action="">
+          <form method="get" action="photoEntry.html">
           <fieldset>
             <legend>Personal Information</legend>
             <label class="top">Full Name* <input type="text" name="name" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
-            <label class="top">Email <input type="email" name="email" placeholder="someone@provider.com"></label>
+            <label class="top">Email* <input type="email" name="email" required placeholder="someone@provider.com"></label>
           </fieldset>
           <fieldset>
             <legend>Photo Information</legend>
-            <label class="top">Link to your photo entry<input type="url" name="url" required title="Please enter the link to your photo"></label>
+            <label class="top">Link to your photo entry*<input type="url" name="url" required title="Please enter the link to your photo"></label>
             <label class="top">Photo Description<textarea name="description" rows="5" cols="55"></textarea></label>
-            <label><input type="checkbox"> I give Sunshine Weather all rights and permission to use my photo as they see fit.</label>
+            <label><input type="checkbox" required> I give Sunshine Weather all rights and permission to use my photo as they see fit.</label>
           </fieldset>
+          <input id="reportBtn" type="submit" value="Enter Contest">
           </form>
 
         </div>
