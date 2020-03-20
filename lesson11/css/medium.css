@@ -132,4 +132,9 @@ main div div section {
     padding-right: 1rem;
 }
 
+/*Preston Page Content*/
+.contestPhotos {
+    grid-template-columns: 1fr 1fr;
+}
+
 }

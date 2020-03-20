@@ -474,3 +474,20 @@ main div div section h2 {
     margin-right: 5%;
     box-shadow: 0 0 20px gray;
 }
+
+/*Preston Photo Contest CSS*/
+.contestPhotos {
+    border: none;
+    box-shadow: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.example {
+    display: block;
+    width: 100%;
+    height: auto;
+}

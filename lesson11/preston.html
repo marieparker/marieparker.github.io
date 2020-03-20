@@ -92,23 +92,31 @@
         </div>
 
         <div id="article">
-            <h3>Sunshine: Stay Safe Out There</h3>
-            <img src="images/Hike1.jpg" alt="Family Hiking">
-            <p>Spring and summer are just around the corner. 
-                As you start thinking about heading outside, planning family camping stays
-                and day-trips to your favorite hiking spot, be sure you stay safe.
-                Applying sunscreen of at least SPF 15 whenever you plan on being outside, 
-                <a href="https://www.skincancer.org/skin-cancer-prevention/sun-protection/sunscreen/">
-                can reduce the risk of skin cancer by 40-50%.</a> </p>
-                <p>When the sun is shining (which we all love), it's easy to remember to stay covered. 
-                You grab your hat to keep the sun off your face, maybe long sleeves if it's not too hot 
-                to protect your arms. But no one really thinks about covering up when it's cloudy.</p>
-                <p>Cloud cover is deceptive. It makes us think we are in 'shade' and protected from the sun. 
-                Although light may be dimmer, the UV rays that can cause sunburn and increase the risk of skin cancer 
-                still pentrate through the clouds. Nothing can dampen a vacation faster than having to stay inside because 
-                your skin resembles the color of a stop sign, and it hurts to move.</p>
-                <p>So, stay safe. Cover up. And use sunscreen, so you can continue enjoying the outdoors for days on end 
-                without those horrible days suffering from sunburn.</p>
+            <h3>The "We Love Preston" Photo Contest</h3>
+            <p>To showcase our beautiful hometown, the town of Preston is holding a photo contest. 
+                Winners will be featured on our home page here at Sunshine Weather. Fill out the 
+                form with your photo and we will let the winners know next month!<br><br>
+                Good Luck!
+            </p>
+          <div class="contestPhotos">
+            <img class="example" src="images/PurpleClouds500.jpg" alt="Family Hiking">
+            <img class="example" src="images/FallDay500.jpg" alt="Fall Day">
+          </div>
+          
+          <form method="get" action="">
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top">Full Name* <input type="text" name="name" required pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
+            <label class="top">Email <input type="email" name="email" placeholder="someone@provider.com"></label>
+          </fieldset>
+          <fieldset>
+            <legend>Photo Information</legend>
+            <label class="top">Link to your photo entry<input type="url" name="url" required title="Please enter the link to your photo"></label>
+            <label class="top">Photo Description<textarea name="description" rows="5" cols="55"></textarea></label>
+            <label><input type="checkbox"> I give Sunshine Weather all rights and permission to use my photo as they see fit.</label>
+          </fieldset>
+          </form>
+
         </div>
         <div class="contact">
             <h3>Contact Information</h3>
