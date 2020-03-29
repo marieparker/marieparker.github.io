@@ -1,0 +1,145 @@
+/*Header*/
+header {
+  border-bottom: 1px solid rgba(76, 91, 92, 0.6); }
+  header #logo {
+    margin: 0;
+    display: flex;
+    float: left;
+    width: 30%;
+    max-width: 300px;
+    z-index: 5; }
+  header h1 {
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    margin-left: 33%;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Lato', sans-serif;
+    color: #4c5b5c;
+    font-size: 1.25rem;
+    font-weight: 300; }
+  header div {
+    display: flex;
+    float: right;
+    color: #db7f00;
+    margin: 0.3rem;
+    font-weight: 700; }
+
+/*begin nav CSS*/
+nav {
+  display: inline;
+  background-color: white;
+  padding: 0;
+  margin-top: 2rem;
+  text-align: center;
+  white-space: nowrap;
+  font-family: 'Amiri', serif;
+  background-color: gradient; }
+
+nav button {
+  width: 100%;
+  padding: 0.5rem; }
+
+nav ul {
+  display: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 32%; }
+
+.hide {
+  display: block; }
+
+nav ul li {
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  list-style: none; }
+
+nav ul li a:hover {
+  background-color: #db7f00;
+  color: white; }
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 0.5rem; }
+
+.current {
+  color: #db7f00; }
+
+/*Main*/
+main div.adventures {
+  display: none; }
+
+main div.show {
+  display: inline-block;
+  position: relative; }
+
+main img {
+  width: 100%; }
+
+main button {
+  background-color: transparent;
+  border: none;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.5);
+  padding-top: 4rem;
+  padding-bottom: 4rem; }
+
+main button:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.3); }
+
+main button:focus {
+  outline: none; }
+
+main button.forward {
+  position: absolute;
+  bottom: 20%;
+  right: 2%; }
+
+main button.back {
+  position: absolute;
+  bottom: 20%;
+  left: 2%; }
+
+@media only screen and (min-width: 560px) {
+  header h1 {
+    padding-top: 2.5rem;
+    font-size: 1.5rem; }
+  header div {
+    display: flex;
+    float: right;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    text-shadow: 1px 1px 1px rgba(168, 168, 168, 0.4); }
+  nav ul {
+    display: flex; }
+  nav ul li {
+    display: block;
+    flex: 1 1 100%; }
+  nav button {
+    display: none; }
+  main button {
+    font-size: 5rem; }
+  main button.forward {
+    bottom: 30%; }
+  main button.back {
+    bottom: 30%; } }
+
+/*end of media query */
+@media only screen and (min-width: 1028px) {
+  header h1 {
+    padding-top: 4rem;
+    font-size: 2rem;
+    margin-left: 25%; }
+  header div {
+    font-size: 2rem; }
+  main {
+    clear: both; }
+    main button {
+      font-size: 10rem; }
+  nav ul {
+    margin-left: 20%; } }
+
+/*end of media query */

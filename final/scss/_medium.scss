@@ -1,0 +1,44 @@
+header {
+    img {
+        //width:225px;
+        //border: 1px solid gray;
+    }
+
+    h1 {
+        padding-top: 2.5rem;
+        font-size: 1.5rem;
+    }
+
+    div {
+        display: flex;
+        float: right;
+        margin: 0.5rem;
+        font-size: 1.5rem;
+        text-shadow: 1px 1px 1px rgba(168, 168, 168, 0.4);
+    }
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+nav button {
+    display: none;
+}
+
+main {
+    button {
+        font-size: 5rem;
+    }
+    button.forward {
+        bottom: 30%;
+    }
+    button.back {
+        bottom: 30%;
+    }
+}

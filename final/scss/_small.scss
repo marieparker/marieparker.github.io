@@ -1,0 +1,136 @@
+
+/*Header*/
+
+header {
+    border-bottom: 1px solid $background;
+    #logo {
+        margin: 0;
+        display: flex;
+        float: left;
+        //display: block;
+        //position: absolute;
+        //top: 0px;
+        //left: 5px;
+        width: 30%;
+        max-width: 300px;
+        z-index: 5;
+    }
+
+    h1 {
+        padding-top: 2rem;
+        padding-bottom: .5rem;
+        margin-left: 33%;
+        margin-bottom: 0;
+        margin-top: 0;
+        font-family: 'Lato', sans-serif;
+        color: $headingColor;
+        font-size: 1.25rem;
+        font-weight: 300;
+    }
+
+    div {
+        display: flex;
+        float: right;
+        //display: none;
+        color: $schemeOrange;
+        margin: 0.3rem;
+        font-weight: 700;
+    }
+}
+
+  /*begin nav CSS*/
+  nav {
+      display: inline;
+      background-color: white;
+      padding: 0;
+      margin-top: 2rem;
+      text-align: center;
+      white-space: nowrap;
+      font-family: 'Amiri', serif;
+      background-color: gradient;
+  }
+
+  nav button {
+      width: 100%;
+      padding: 0.5rem;
+  }
+
+  nav ul {
+      display: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 32%;
+  }
+
+  .hide {
+      display: block;
+  }
+
+  nav ul li {
+      border-right: 1px solid gray;
+      border-top: 1px solid gray;
+      list-style: none;
+      
+  }
+
+  nav ul li a:hover {
+      background-color: #db7f00;
+      color: white;
+  }
+
+  nav ul li a {
+      text-decoration: none;
+      color: black;
+      display: block;
+      padding: 0.5rem;
+  }
+
+  .current {
+      color: #db7f00;
+  }
+
+  /*Main*/
+  main {
+
+    div.adventures {
+        display: none;
+    }
+
+    div.show {
+        display: inline-block;
+        position: relative;
+    }
+    
+    img {
+      width: 100%;
+      }
+
+      button {
+          background-color: transparent;
+          border: none;
+          font-size: 3rem;
+          color: rgba(255, 255, 255, 0.5);
+          padding-top: 4rem;
+          padding-bottom: 4rem;
+      }
+      button:hover {
+          color: white;
+          background-color: rgba(255, 255, 255, 0.3);
+      }
+      button:focus {
+          outline: none;
+      }
+    button.forward {
+      position: absolute;
+      bottom: 20%;
+      right: 2%;
+    }
+
+    button.back {
+        position: absolute;
+        bottom: 20%;
+        left: 2%;
+    }
+}
+  
+ 
