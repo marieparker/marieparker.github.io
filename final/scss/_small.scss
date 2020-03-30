@@ -40,7 +40,6 @@ header {
       text-align: center;
       white-space: nowrap;
       font-family: 'Amiri', serif;
-      background-color: gradient;
   }
 
   nav button {
@@ -61,12 +60,15 @@ header {
   nav ul li {
       border-right: 1px solid gray;
       border-top: 1px solid gray;
-      list-style: none;
-      
+      list-style: none;  
+  }
+
+  nav ul li a {
+      color: $textColor;
   }
 
   nav ul li a:hover {
-      background-color: #db7f00;
+      background-color: $schemeOrange;
       color: white;
   }
 
@@ -129,14 +131,20 @@ header {
 
       //Adventure Specifics Formatting
       section.adventure1 {
-          background-color: rgb(253, 231, 76);
+          background-color: $schemeYellow;
           padding: 2rem;
           padding-top: 1rem;
       }
 
-     section.adventure1 h3 {
-        color: white;
-}
+      section.adventure1 h3 {
+          color: $headingColor;
+          font-family: 'Lato', sans-serif;
+      }
+
+      p {
+          color: $textColor;
+          font-family: 'Amiri', serif;
+      }
   }
 
   

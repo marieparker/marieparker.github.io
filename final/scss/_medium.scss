@@ -47,25 +47,22 @@ main {
     button {
         font-size: 5rem;
     }
+    
     button.forward {
-        top: 200px;
+        top: 25%;
     }
+  
     button.back {
-        top: 200px;
+        top: 25%;
     }
 
     //Adventure Specifics Formatting
     section.adventure1 {
-        background-color: rgb(253, 231, 76);
+        //background-color: rgba(253, 231, 76, 0.8);
         position: absolute;
-        top: 150px;
-        max-width: 250px;
-        padding: 2rem;
-        padding-top: 1rem;
+        top: 50px;
+        max-width: 25%;
+        padding: 0.5rem 2rem;
         margin-left: 7%;
     }
-
-   section.adventure1 h3 {
-      color: white;
-}
 }

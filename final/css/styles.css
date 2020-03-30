@@ -32,8 +32,7 @@ nav {
   padding: 0;
   text-align: center;
   white-space: nowrap;
-  font-family: 'Amiri', serif;
-  background-color: gradient; }
+  font-family: 'Amiri', serif; }
 
 nav button {
   width: 100%;
@@ -51,6 +50,9 @@ nav ul li {
   border-right: 1px solid gray;
   border-top: 1px solid gray;
   list-style: none; }
+
+nav ul li a {
+  color: #1A1423; }
 
 nav ul li a:hover {
   background-color: #db7f00;
@@ -108,7 +110,12 @@ main section.adventure1 {
   padding-top: 1rem; }
 
 main section.adventure1 h3 {
-  color: white; }
+  color: #4c5b5c;
+  font-family: 'Lato', sans-serif; }
+
+main p {
+  color: #1A1423;
+  font-family: 'Amiri', serif; }
 
 @media only screen and (min-width: 560px) {
   header #logo {
@@ -140,19 +147,15 @@ main section.adventure1 h3 {
   main button {
     font-size: 5rem; }
   main button.forward {
-    top: 200px; }
+    top: 25%; }
   main button.back {
-    top: 200px; }
+    top: 25%; }
   main section.adventure1 {
-    background-color: #fde74c;
     position: absolute;
-    top: 150px;
-    max-width: 250px;
-    padding: 2rem;
-    padding-top: 1rem;
-    margin-left: 7%; }
-  main section.adventure1 h3 {
-    color: white; } }
+    top: 50px;
+    max-width: 25%;
+    padding: 0.5rem 2rem;
+    margin-left: 7%; } }
 
 /*end of media query */
 @media only screen and (min-width: 1028px) {
@@ -171,6 +174,10 @@ main section.adventure1 h3 {
   main {
     clear: both; }
     main button {
-      font-size: 8rem; } }
+      font-size: 8rem; }
+    main button.forward {
+      top: 30%; }
+    main button.back {
+      top: 30%; } }
 
 /*end of media query */

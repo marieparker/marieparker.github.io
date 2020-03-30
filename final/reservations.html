@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico">
     
     <link href="https://fonts.googleapis.com/css?family=Amiri:400,700&7cLato:300,900&display=swap" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
@@ -34,6 +34,33 @@
         </ul>
         </nav>
     </header>
+    <main>
+        <form method="get" action="thanks.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label class="top">Full Name* <input type="text" name="name" required placeholder="John Doe" pattern="[A-za-z].{4,}" title="Must be at least 5 characters"></label>
+                <label class="top">Email* <input type="email" name="email" required placeholder="someone@provider.com"></label>
+                <label class="top">Phone Number* <input type="tel" name="phone" required placeholder="435-555-0000"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Your Adventure</legend>
+                <label>Adventure Type
+                    <select name="adventure">
+                        <option value="">Select Adventure</option>
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </label>
+                <label>Start Date <input type="date" name="adventureDate" required></label>
+                <label>Questions/Comments <textarea name="comments" rows="6" cols="60"></textarea></label>
+            </fieldset>
+
+            <input id="reportBtn" type="submit" value="Book My Adventure">
+        </form>
+    </main>
+
+    <script src="js/toggle.js"></script>
 
     </body>
     </html>
