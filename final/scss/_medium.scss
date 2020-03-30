@@ -1,18 +1,27 @@
 header {
 
+    #logo {
+        max-width: $logoMdSize;
+    }
+
     h1 {
         padding-top: 2.5rem;
         font-size: 1.5rem;
+        margin-left: $logoMdSize;
     }
 
     div {
         display: flex;
         float: right;
         margin: 0.5rem;
+        margin-left: 0;
+        margin-bottom: 0;
         font-size: 1.5rem;
         text-shadow: 1px 1px 1px rgba(168, 168, 168, 0.4);
     }
 }
+
+/*Nav CSS*/
 
 nav {
     margin-top: 2rem;
@@ -20,6 +29,7 @@ nav {
 
 nav ul {
     display: flex;
+    margin-left: $logoMdSize;
 }
 
 nav ul li {
@@ -31,14 +41,31 @@ nav button {
     display: none;
 }
 
+/*Main CSS*/
+
 main {
     button {
         font-size: 5rem;
     }
     button.forward {
-        bottom: 30%;
+        top: 200px;
     }
     button.back {
-        bottom: 30%;
+        top: 200px;
     }
+
+    //Adventure Specifics Formatting
+    section.adventure1 {
+        background-color: rgb(253, 231, 76);
+        position: absolute;
+        top: 150px;
+        max-width: 250px;
+        padding: 2rem;
+        padding-top: 1rem;
+        margin-left: 7%;
+    }
+
+   section.adventure1 h3 {
+      color: white;
+}
 }

@@ -7,19 +7,14 @@ header {
         margin: 0;
         display: flex;
         float: left;
-        //display: block;
-        //position: absolute;
-        //top: 0px;
-        //left: 5px;
-        width: 30%;
-        max-width: 300px;
+        max-width: $logoSmSize;
         z-index: 5;
     }
 
     h1 {
         padding-top: 2rem;
         padding-bottom: .5rem;
-        margin-left: 33%;
+        margin-left: $logoSmSize;
         margin-bottom: 0;
         margin-top: 0;
         font-family: 'Lato', sans-serif;
@@ -31,7 +26,6 @@ header {
     div {
         display: flex;
         float: right;
-        //display: none;
         color: $schemeOrange;
         margin: 0.3rem;
         font-weight: 700;
@@ -58,7 +52,6 @@ header {
       display: none;
       padding: 0;
       margin: 0;
-      margin-left: 32%;
   }
 
   .hide {
@@ -90,7 +83,7 @@ header {
 
   /*Main*/
   main {
-
+    //Toggling
     div.adventures {
         display: none;
     }
@@ -100,6 +93,7 @@ header {
         position: relative;
     }
 
+    //general formatting
     img {
       width: 100%;
       }
@@ -119,17 +113,31 @@ header {
       button:focus {
           outline: none;
       }
-    button.forward {
-      position: absolute;
-      bottom: 20%;
-      right: 2%;
-    }
 
-    button.back {
+      button.forward {
+      position: absolute;
+      top: 10%;
+      right: 2%;
+      }
+
+      button.back {
         position: absolute;
-        bottom: 20%;
+        top: 10%;
         left: 2%;
-    }
+        z-index: 8;
+      }
+
+      //Adventure Specifics Formatting
+      section.adventure1 {
+          background-color: rgb(253, 231, 76);
+          padding: 2rem;
+          padding-top: 1rem;
+      }
+
+     section.adventure1 h3 {
+        color: white;
 }
+  }
+
   
  

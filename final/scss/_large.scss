@@ -1,9 +1,13 @@
+/*Header CSS*/
 header {
 
+    #logo {
+        max-width: $logoLgSize;
+    }
     h1 {
         padding-top: 4rem;
         font-size: 2rem;
-        margin-left: 25%;
+        margin-left: $logoLgSize;
     }
 
     div {
@@ -11,14 +15,18 @@ header {
     }
 }
 
-main {
-    clear: both;
-    button {
-        font-size: 10rem;
-    }
-
-}
 
 nav ul {
-    margin-left: 20%;
+    margin-left: $logoLgSize;
+}
+
+/*Main Css*/
+
+main {
+    clear: both;
+    
+    button {
+        font-size: 8rem;
+    }
+
 }

@@ -1,3 +1,4 @@
+/*logo sizing*/
 /*Header*/
 header {
   border-bottom: 1px solid rgba(76, 91, 92, 0.6); }
@@ -5,13 +6,12 @@ header {
     margin: 0;
     display: flex;
     float: left;
-    width: 30%;
-    max-width: 300px;
+    max-width: 100px;
     z-index: 5; }
   header h1 {
     padding-top: 2rem;
     padding-bottom: .5rem;
-    margin-left: 33%;
+    margin-left: 100px;
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'Lato', sans-serif;
@@ -42,8 +42,7 @@ nav button {
 nav ul {
   display: none;
   padding: 0;
-  margin: 0;
-  margin-left: 32%; }
+  margin: 0; }
 
 .hide {
   display: block; }
@@ -94,53 +93,84 @@ main button:focus {
 
 main button.forward {
   position: absolute;
-  bottom: 20%;
+  top: 10%;
   right: 2%; }
 
 main button.back {
   position: absolute;
-  bottom: 20%;
-  left: 2%; }
+  top: 10%;
+  left: 2%;
+  z-index: 8; }
+
+main section.adventure1 {
+  background-color: #fde74c;
+  padding: 2rem;
+  padding-top: 1rem; }
+
+main section.adventure1 h3 {
+  color: white; }
 
 @media only screen and (min-width: 560px) {
+  header #logo {
+    max-width: 200px; }
   header h1 {
     padding-top: 2.5rem;
-    font-size: 1.5rem; }
+    font-size: 1.5rem;
+    margin-left: 200px; }
   header div {
     display: flex;
     float: right;
     margin: 0.5rem;
+    margin-left: 0;
+    margin-bottom: 0;
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(168, 168, 168, 0.4); }
+  /*Nav CSS*/
   nav {
     margin-top: 2rem; }
   nav ul {
-    display: flex; }
+    display: flex;
+    margin-left: 200px; }
   nav ul li {
     display: block;
     flex: 1 1 100%; }
   nav button {
     display: none; }
+  /*Main CSS*/
   main button {
     font-size: 5rem; }
   main button.forward {
-    bottom: 30%; }
+    top: 200px; }
   main button.back {
-    bottom: 30%; } }
+    top: 200px; }
+  main section.adventure1 {
+    background-color: #fde74c;
+    position: absolute;
+    top: 150px;
+    max-width: 250px;
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-left: 7%; }
+  main section.adventure1 h3 {
+    color: white; } }
 
 /*end of media query */
 @media only screen and (min-width: 1028px) {
+  /*Header CSS*/
+  header #logo {
+    max-width: 260px; }
   header h1 {
     padding-top: 4rem;
     font-size: 2rem;
-    margin-left: 25%; }
+    margin-left: 260px; }
   header div {
     font-size: 2rem; }
+  nav ul {
+    margin-left: 260px; }
+  /*Main Css*/
   main {
     clear: both; }
     main button {
-      font-size: 10rem; }
-  nav ul {
-    margin-left: 20%; } }
+      font-size: 8rem; } }
 
 /*end of media query */
