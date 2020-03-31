@@ -83,6 +83,27 @@ header {
       color: #db7f00;
   }
 
+  //Footer CSS
+  hr {
+    clear: both;
+  }
+  footer {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 0.9rem;
+    color: $headingColor;
+    padding: 0.75rem;
+
+    a {
+        text-decoration: none;
+        color: $schemeOrange;
+    }
+
+    a:hover {
+        color: blue;
+    }
+}
+
   /*Main*/
   main {
     //Toggling
@@ -93,6 +114,11 @@ header {
     div.show {
         display: inline-block;
         position: relative;
+    }
+
+    div.sticky {
+        position: sticky;
+        bottom: 0;
     }
 
     //general formatting
@@ -118,15 +144,43 @@ header {
 
       button.forward {
       position: absolute;
-      top: 10%;
+      top: 5%;
       right: 2%;
       }
 
       button.back {
         position: absolute;
-        top: 10%;
+        top: 5%;
         left: 2%;
         z-index: 8;
+      }
+
+      //Current weather in Riggins
+      div.sticky {
+          background-color: $background;
+          padding: 1rem;
+          padding-bottom: 0;
+      }
+      
+      div.sticky h4 {
+          color: white;
+          font-family: 'Lato', sans-serif;
+          margin-top: 0.5rem;
+          margin-bottom: 0.3rem;
+      }
+
+      #icon {
+          width: 40px;
+          display: flex;
+          float: left;
+      }
+      
+      div.currentWeather {
+          display: inline;
+          font-family: 'Amiri', serif;
+          padding-left: 0.5rem;
+          color: $schemeYellow;
+          line-height: 3rem;
       }
 
       //Adventure Specifics Formatting
@@ -144,6 +198,54 @@ header {
       p {
           color: $textColor;
           font-family: 'Amiri', serif;
+      }
+
+      button.reserve {
+          font-size: 1rem;
+          font-family: 'Lato', sans-serif;
+          color: white;
+          background-color: $schemeOrange;
+          padding: 1rem;
+          border-radius: 10px;
+      }
+
+      button.reserve:hover {
+          background-color: rgb(153, 90, 3);
+      }
+
+      //Reservations Formatting
+      form fieldset {
+          margin: 2% 10%;
+          border: 2px solid $background;
+          border-radius: 7px;
+      }
+
+      legend {
+          font-family: 'Lato', sans-serif;
+          font-weight: 900;
+          color: $headingColor;
+          padding: .2rem;
+      }
+
+      .top {
+          display: block;
+          font-family: 'Amiri', serif;
+          font-size: 1.2em;
+          margin-top: 1rem;
+      }
+
+      .top input, select, textarea {
+          display: block;
+          margin-bottom: .5rem;
+      }
+
+      .top input {
+          padding: 4px;
+      }
+
+      #reportBtn {
+          margin-top: 1rem;
+          padding: .25rem;
       }
   }
 

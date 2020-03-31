@@ -44,7 +44,7 @@
             </fieldset>
             <fieldset>
                 <legend>Your Adventure</legend>
-                <label>Adventure Type
+                <label class="top">Adventure Type
                     <select name="adventure">
                         <option value="">Select Adventure</option>
                         <option value="beginner">Beginner</option>
@@ -52,14 +52,21 @@
                         <option value="advanced">Advanced</option>
                     </select>
                 </label>
-                <label>Start Date <input type="date" name="adventureDate" required></label>
-                <label>Questions/Comments <textarea name="comments" rows="6" cols="60"></textarea></label>
+                <label class="top">Start Date <input type="date" name="adventureDate" required></label>
+                <label class="top">Questions/Comments <textarea name="comments" rows="6" cols="40"></textarea></label>
+            
+                <input id="reportBtn" type="submit" value="Book My Adventure">
             </fieldset>
 
-            <input id="reportBtn" type="submit" value="Book My Adventure">
+            
         </form>
     </main>
 
+    <footer>
+        &copy; <span id="currentYear"></span> Salmon River Adventures | Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a>
+            <br/><span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
+    </footer>
     <script src="js/toggle.js"></script>
 
     </body>

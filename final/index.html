@@ -44,14 +44,16 @@
           </div>
             <section class="adventure1">
                 <h3>Level: Difficult</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Tempora illum aliquid quo ut quas suscipit dolores placeat 
-                similique, obcaecati laboriosam quae ad sunt ullam corporis 
-                animi libero eius rerum eaque?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                Iste sunt debitis vero officia velit officiis porro dolores, 
-                pariatur repellat expedita sapiente, ad adipisci laudantium 
-                ullam rerum explicabo doloribus ipsa temporibus.</p>
+                <ul>
+                    <li>3 days</li>
+                    <li>$1500</li>
+                    <li>up to 6 people</li>
+                </ul>
+                <p>Salmon River Adventures provides food and transportation of 
+                    all supplies from campsite to camp site. Adventurers will tackle
+                    class 1-4 rapids. <b>Previous experience required.</b>
+                </p>
+                <a href="reservations.html"><button class="reserve">Book Now</button></a>
             </section>     
       </div>
       <div id="2" class="adventures">
@@ -86,16 +88,22 @@
             ullam rerum explicabo doloribus ipsa temporibus.</p>
         </section>
       </div>
+      <div class="sticky">
+          <h4>Weather in Riggins, ID</h4>
+          <img id="icon" src="images/placeholder.jpg" alt="">
+          <div class="currentWeather">Temp: <span id="temp"></span>&deg;F</div>
+          <div class="currentWeather">| &#160;&#160;Feels like: <span id="feels"></span>&deg;F</div>
+      </div>
     </main>
+    <hr>
     <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium voluptates ipsum alias ipsa tempore quaerat magni possimus? Nemo fugiat a ducimus ipsum ipsa, laborum quidem fugit sint enim consequatur mollitia?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio placeat quibusdam officiis doloribus aliquid omnis rem facere, cumque dicta incidunt unde veritatis aut facilis fugiat nihil sunt vel quod deserunt?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae magni dignissimos facilis praesentium officia alias debitis, ullam repudiandae inventore iste distinctio consectetur laudantium delectus voluptates ab? Labore, autem fugit!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores animi sapiente, alias laborum quo debitis ullam necessitatibus distinctio ex voluptates excepturi. Aut dolorum quas sapiente ab perferendis molestias blanditiis maiores!
-        </p>
+        &copy; <span id="currentYear"></span> Salmon River Adventures| Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a> | <a href="https://openweathermap.org/">Open Weather Map</a>
+            <br/><span id="lastUpdated"></span>
+            <script src="js/date.js"></script>
     </footer>
     <script src="js/toggle.js"></script>
     <script src="js/adventureScroll.js"></script>
+    <script src="js/currentWeather.js"></script>
 </body>
 
 </html>
