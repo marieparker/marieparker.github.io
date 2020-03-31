@@ -34,7 +34,12 @@
         </ul>
         </nav>
     </header>
-    <main>
+    <main class="reservations">
+        <picture class="topPhoto">
+            <source media="(max-width:500px)" srcset="images/river500.jpg">
+            <source media="(max-width:800px)" srcset="images/river900.jpg">
+            <img src="images/river1500.jpg" alt="white river">
+        </picture>
         <form method="get" action="thanks.html">
             <fieldset>
                 <legend>Contact Information</legend>
@@ -53,15 +58,52 @@
                     </select>
                 </label>
                 <label class="top">Start Date <input type="date" name="adventureDate" required></label>
-                <label class="top">Questions/Comments <textarea name="comments" rows="6" cols="40"></textarea></label>
-            
-                <input id="reportBtn" type="submit" value="Book My Adventure">
+                <label class="top">Questions/Comments <textarea name="comments" rows="6" cols="30"></textarea></label>                
             </fieldset>
 
-            
+            <input id="reportBtn" type="submit" value="Book My Adventure"> 
         </form>
+        <div class="adventureLevels">  
+        <section class="difficult">
+                <img src="images/firdouss-ross-THsw2pd2gX0-unsplash.jpg" alt=""> 
+                <h3>Level: Beginner</h3>
+                <ul>
+                    <li>3 days</li>
+                    <li>$1500</li>
+                    <li>up to 6 people</li>
+                </ul>
+                <p>Salmon River Adventures provides food and transportation of 
+                    all supplies from campsite to camp site. Adventurers will tackle
+                    class 1-4 rapids. <b>Previous experience required.</b>
+                </p>
+            </section>
+            <section class="difficult">
+                <h3>Level: Intermediate</h3>
+                <ul>
+                    <li>3 days</li>
+                    <li>$1500</li>
+                    <li>up to 6 people</li>
+                </ul>
+                <p>Salmon River Adventures provides food and transportation of 
+                    all supplies from campsite to camp site. Adventurers will tackle
+                    class 1-4 rapids. <b>Previous experience required.</b>
+                </p>
+            </section>
+            <section class="difficult">
+                <h3>Level: Difficult</h3>
+                <ul>
+                    <li>3 days</li>
+                    <li>$1500</li>
+                    <li>up to 6 people</li>
+                </ul>
+                <p>Salmon River Adventures provides food and transportation of 
+                    all supplies from campsite to camp site. Adventurers will tackle
+                    class 1-4 rapids. <b>Previous experience required.</b>
+                </p>
+            </section>
+        </div>
     </main>
-
+    <hr>
     <footer>
         &copy; <span id="currentYear"></span> Salmon River Adventures | Marie Parker | <a href="https://www.byui.edu/online" id="byulink">BYUI Online Learning</a>
             <br/><span id="lastUpdated"></span>
