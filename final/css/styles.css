@@ -123,29 +123,6 @@ main button.back {
   left: 2%;
   z-index: 8; }
 
-main div.sticky {
-  background-color: rgba(52, 121, 136, 0.8);
-  padding: 1rem;
-  padding-bottom: 0; }
-
-main div.sticky h4 {
-  color: white;
-  font-family: 'Lato', sans-serif;
-  margin-top: 0.5rem;
-  margin-bottom: 0.3rem; }
-
-main #icon {
-  width: 40px;
-  display: flex;
-  float: left; }
-
-main div.currentWeather {
-  display: inline;
-  font-family: 'Amiri', serif;
-  padding-left: 0.5rem;
-  color: #fde74c;
-  line-height: 3rem; }
-
 main section.adventure1 {
   background-color: #fde74c;
   padding: 2rem;
@@ -169,6 +146,29 @@ main button.reserve {
 
 main button.reserve:hover {
   background-color: #995a03; }
+
+main div.sticky {
+  background-color: rgba(52, 121, 136, 0.8);
+  padding: 1rem;
+  padding-bottom: 0; }
+
+main div.sticky h4 {
+  color: white;
+  font-family: 'Lato', sans-serif;
+  margin-top: 0.5rem;
+  margin-bottom: 0.3rem; }
+
+main #icon {
+  width: 40px;
+  display: flex;
+  float: left; }
+
+main div.currentWeather {
+  display: inline;
+  font-family: 'Amiri', serif;
+  padding-left: 0.5rem;
+  color: #fde74c;
+  line-height: 3rem; }
 
 main form fieldset {
   margin: 2% 10%;
@@ -236,7 +236,7 @@ main #reportBtn {
     top: 50px;
     max-width: 25%;
     padding: 0.5rem 2rem;
-    margin-left: 7%; } }
+    margin-left: 5%; } }
 
 /*end of media query */
 @media only screen and (min-width: 1028px) {
