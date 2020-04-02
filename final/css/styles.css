@@ -252,6 +252,9 @@ main caption {
 main tr {
   color: #1A1423; }
 
+main th, main td {
+  padding: .25rem; }
+
 main th {
   background-color: rgba(52, 121, 136, 0.8);
   border: 2px solid rgba(52, 121, 136, 0.8);

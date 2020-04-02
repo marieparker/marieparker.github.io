@@ -316,6 +316,10 @@ header {
       tr {
         color: $textColor;
       }
+
+      th, td {
+          padding: .25rem;
+      }
       
       th {
         background-color: $background;
