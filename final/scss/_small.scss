@@ -27,7 +27,7 @@ header {
         display: flex;
         float: right;
         color: $schemeOrange;
-        margin: 0.3rem;
+        margin: 0.5rem 3% 0 0;
         font-weight: 700;
     }
 }
@@ -130,7 +130,7 @@ header {
 
     .resTitle h1 {
         position: absolute;
-        right: 5%;
+        right: 3%;
         color: white;
         font-family: $headingFont;
     }
@@ -142,11 +142,12 @@ header {
     div div.pageHeading {
         position: absolute;
         top: 30px;
-        right: 5%;
+        right: 3%;
         z-index: 10;
         font-family: $headingFont;
         font-size: 1rem;
         color: white;
+        text-align: right;
     }
 
     div div.pageHeading h1 {
@@ -156,7 +157,17 @@ header {
     div div.pageHeading p {
         color: white;
         margin-top: 0;
+        font-weight: 700;
         }
+
+    div div.dark {
+        color: $background;
+    }
+
+    div div.dark p {
+        color: $textColor;
+        font-weight: 700;
+    }
 
 
       button {
@@ -215,7 +226,7 @@ header {
       }
 
       //Adventure Specifics Formatting
-      section.adventure1 {
+      section.adventure1, section.adventure2, section.adventure3 {
         background-color: $schemeYellow;
         padding: 2rem;
         padding-top: 1rem;
@@ -223,7 +234,7 @@ header {
         margin-bottom: 0.2rem;
     }
 
-    section.adventure1 h3 {
+    section.adventure1 h3, section.adventure2 h3, section.adventure3 h3 {
         color: $headingColor;
         font-family: 'Lato', sans-serif;
     }

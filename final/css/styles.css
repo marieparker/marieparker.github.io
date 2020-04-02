@@ -22,7 +22,7 @@ header {
     display: flex;
     float: right;
     color: #db7f00;
-    margin: 0.3rem;
+    margin: 0.5rem 3% 0 0;
     font-weight: 700; }
 
 /*begin nav CSS*/
@@ -100,7 +100,7 @@ main .resTitle {
 
 main .resTitle h1 {
   position: absolute;
-  right: 5%;
+  right: 3%;
   color: white;
   font-family: "Lato", sans-serif; }
 
@@ -110,18 +110,27 @@ main img {
 main div div.pageHeading {
   position: absolute;
   top: 30px;
-  right: 5%;
+  right: 3%;
   z-index: 10;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
-  color: white; }
+  color: white;
+  text-align: right; }
 
 main div div.pageHeading h1 {
   margin: 0; }
 
 main div div.pageHeading p {
   color: white;
-  margin-top: 0; }
+  margin-top: 0;
+  font-weight: 700; }
+
+main div div.dark {
+  color: rgba(52, 121, 136, 0.8); }
+
+main div div.dark p {
+  color: #1A1423;
+  font-weight: 700; }
 
 main button {
   background-color: transparent;
@@ -168,14 +177,14 @@ main div.location section {
 main section.socialmedia img {
   max-width: 20px; }
 
-main section.adventure1 {
+main section.adventure1, main section.adventure2, main section.adventure3 {
   background-color: #fde74c;
   padding: 2rem;
   padding-top: 1rem;
   padding-bottom: 4rem;
   margin-bottom: 0.2rem; }
 
-main section.adventure1 h3 {
+main section.adventure1 h3, main section.adventure2 h3, main section.adventure3 h3 {
   color: #4c5b5c;
   font-family: 'Lato', sans-serif; }
 
@@ -318,11 +327,6 @@ main div.guide p {
     font-size: 1.5rem;
     margin-left: 200px; }
   header div {
-    display: flex;
-    float: right;
-    margin: 0.5rem;
-    margin-left: 0;
-    margin-bottom: 0;
     font-size: 1.5rem;
     text-shadow: 1px 1px 1px rgba(168, 168, 168, 0.4); }
   /*Nav CSS*/
@@ -354,7 +358,7 @@ main div.guide p {
     position: absolute;
     top: 50px;
     right: 50px; }
-  main section.adventure1 {
+  main section.adventure1, main section.adventure2, main section.adventure3 {
     position: absolute;
     top: 100px;
     max-width: 25%;
