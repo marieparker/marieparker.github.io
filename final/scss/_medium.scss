@@ -37,21 +37,6 @@ nav button {
 }
 
 /*Main CSS*/
-.reservations {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-column-gap: 10px;
-}
-
-.pageHeading {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.location {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
 
 //Contact
 section.socialmedia img {

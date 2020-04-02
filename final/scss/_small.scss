@@ -297,6 +297,45 @@ header {
       }
 
       //Reservations Form Formatting
+      table {
+        background-color: rgba(253, 231, 76, 0.5);
+        border: 2px solid $background;
+        border-radius: 1em;
+          margin: 1rem auto;
+          border-collapse: collapse;
+          width: 85%;
+      }
+
+      caption {
+          font-family: $headingFont;
+          font-size: 2rem;
+          color: $schemeOrange;
+          margin-bottom: .5rem;
+      }
+
+      tr {
+        color: $textColor;
+      }
+      
+      th {
+        background-color: $background;
+        border: 2px solid $background;
+        border-collapse: collapse;
+        padding-top: 1.25%;
+        padding-bottom: 1.25%;
+        color: white;
+      } 
+
+      tr:nth-child(even) {
+          background-color: rgba(253, 231, 76, 0.8);
+      }
+      
+      td {
+          border: 1px solid $navColor;
+          border-collapse: collapse;
+          padding: 1.5%;
+      }
+      
       form fieldset {
           margin: 2% 5%;
           border: 2px solid $background;
@@ -369,11 +408,14 @@ header {
       .levels img {
         display: flex;
         float: right;
-        max-width: 45%;
+        width: 45%;
+        max-width: 350px;
         padding: 0.1rem;
       } 
     
     .levels {
+        overflow: auto;
+        clear: both;
         background-color: rgba(253, 231, 76, 0.5);
         border: 2px solid $background;
         border-radius: 10px;
