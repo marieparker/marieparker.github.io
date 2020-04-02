@@ -20,23 +20,23 @@ fetch(requestURL)
         
         let name = document.createElement('h2');
         name.textContent = guides[i].name;
-        card.appendChild(name);
+        info.appendChild(name);
 
         let cert = document.createElement('p');
         cert.textContent = guides[i].certLevel;
-        card.appendChild(cert);
+        info.appendChild(cert);
 
         let experience = document.createElement('p');
         experience.textContent = guides[i].experience;
-        card.appendChild(experience);
+        info.appendChild(experience);
 
         let address = document.createElement('p');
-        address = guides[i].address;
-        card.appendChild(address);
+        address.textContent = guides[i].email;
+        info.appendChild(address);
 
         let bio = document.createElement('p');
-        bio = guides[i].bio;
-        card.appendChild(bio);
+        bio.textContent = guides[i].bio;
+        info.appendChild(bio);
 
         let photo = document.createElement('img');
         photo.setAttribute('src', 'images/' + guides[i].picture);

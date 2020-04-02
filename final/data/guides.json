@@ -5,7 +5,7 @@
             "picture": "",
             "certLevel" : "Expert",
             "experience" : "15 years",
-            "address" : "john@salmonriveradventures.com",
+            "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         },
         {
@@ -13,7 +13,7 @@
             "picture": "",
             "certLevel" : "Expert",
             "experience" : "10 years",
-            "address" : "john@salmonriveradventures.com",
+            "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         },
         {
@@ -21,7 +21,7 @@
             "picture": "",
             "certLevel" : "Expert",
             "experience" : "12 years",
-            "address" : "john@salmonriveradventures.com",
+            "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         }
     ]
