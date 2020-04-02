@@ -94,6 +94,10 @@ main div.sticky {
   position: sticky;
   bottom: 0; }
 
+main .homePage {
+  padding: 1rem;
+  font-size: 1.2em; }
+
 main .resTitle {
   grid-column-start: 1;
   grid-column-end: 3; }
