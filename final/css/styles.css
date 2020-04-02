@@ -141,6 +141,8 @@ main p {
   font-family: 'Amiri', serif; }
 
 main button.reserve {
+  display: flex;
+  float: right;
   font-size: 1rem;
   font-family: 'Lato', sans-serif;
   color: white;
