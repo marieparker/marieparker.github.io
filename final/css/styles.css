@@ -94,26 +94,32 @@ main div.sticky {
   position: sticky;
   bottom: 0; }
 
-main .topPhoto {
+main .resTitle {
   grid-column-start: 1;
   grid-column-end: 3; }
+
+main .resTitle h1 {
+  position: absolute;
+  right: 5%;
+  color: white;
+  font-family: "Lato", sans-serif; }
 
 main img {
   width: 100%; }
 
-main .pageHeading {
+main div div.pageHeading {
   position: absolute;
-  top: 110px;
+  top: 30px;
   right: 5%;
   z-index: 10;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
   color: white; }
 
-main .pageHeading h1 {
+main div div.pageHeading h1 {
   margin: 0; }
 
-main .pageHeading p {
+main div div.pageHeading p {
   color: white;
   margin-top: 0; }
 
@@ -146,7 +152,9 @@ main button.back {
 main section.adventure1 {
   background-color: #fde74c;
   padding: 2rem;
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+  margin-bottom: 0.2rem; }
 
 main section.adventure1 h3 {
   color: #4c5b5c;
@@ -316,7 +324,7 @@ main div.guide p {
     top: 25%; }
   main .pageHeading {
     position: absolute;
-    top: 135px;
+    top: 50px;
     right: 50px; }
   main section.adventure1 {
     position: absolute;
@@ -372,7 +380,7 @@ main div.guide p {
     main button.back {
       top: 30%; }
     main .pageHeading {
-      top: 175px; }
+      top: 75px; }
     main #guides {
       text-align: center;
       display: grid;

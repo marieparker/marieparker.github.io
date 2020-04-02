@@ -1,10 +1,10 @@
 {
     "guides": [
         {
-            "name": "John",
-            "picture": "John1.jpg",
+            "name": "Lacy",
+            "picture": "Lacy1.jpg",
             "certLevel" : "Expert",
-            "experience" : "15 years",
+            "experience" : "12 years",
             "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         },
@@ -14,15 +14,15 @@
             "certLevel" : "Expert",
             "experience" : "10 years",
             "email" : "john@salmonriveradventures.com",
-            "bio" : "Lots of great information about him." 
+            "bio" : "Lots of great information about him."     
         },
         {
-            "name": "Lacy",
-            "picture": "Lacy1.jpg",
+            "name": "John",
+            "picture": "John1.jpg",
             "certLevel" : "Expert",
-            "experience" : "12 years",
+            "experience" : "15 years",
             "email" : "john@salmonriveradventures.com",
-            "bio" : "Lots of great information about him." 
+            "bio" : "Lots of great information about him."  
         }
     ]
 }

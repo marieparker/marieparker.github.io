@@ -123,18 +123,25 @@ header {
     }
 
     //general formatting
-    .topPhoto {
+    .resTitle {
         grid-column-start: 1;
         grid-column-end: 3;
+    }
+
+    .resTitle h1 {
+        position: absolute;
+        right: 5%;
+        color: white;
+        font-family: $headingFont;
     }
 
     img {
       width: 100%;
       }
 
-    .pageHeading {
+    div div.pageHeading {
         position: absolute;
-        top: 110px;
+        top: 30px;
         right: 5%;
         z-index: 10;
         font-family: $headingFont;
@@ -142,11 +149,11 @@ header {
         color: white;
     }
 
-    .pageHeading h1 {
+    div div.pageHeading h1 {
         margin: 0;
     }
 
-    .pageHeading p {
+    div div.pageHeading p {
         color: white;
         margin-top: 0;
         }
@@ -186,6 +193,8 @@ header {
         background-color: $schemeYellow;
         padding: 2rem;
         padding-top: 1rem;
+        padding-bottom: 4rem;
+        margin-bottom: 0.2rem;
     }
 
     section.adventure1 h3 {
