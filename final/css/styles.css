@@ -240,7 +240,7 @@ main table {
   border: 2px solid rgba(52, 121, 136, 0.8);
   margin: 1rem auto;
   border-collapse: collapse;
-  width: 85%;
+  width: 95%;
   font-family: "Amiri", serif; }
 
 main caption {
@@ -419,6 +419,8 @@ main .response {
     margin-left: 8%; }
   main button.reserve {
     padding: .7rem; }
+  main table {
+    width: 85%; }
   main .levels {
     margin-top: 4%;
     margin-right: 10%; }
