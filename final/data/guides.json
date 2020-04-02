@@ -2,7 +2,7 @@
     "guides": [
         {
             "name": "John",
-            "picture": "images/John1.jpg",
+            "picture": "John1.jpg",
             "certLevel" : "Expert",
             "experience" : "15 years",
             "email" : "john@salmonriveradventures.com",
@@ -10,7 +10,7 @@
         },
         {
             "name": "Aaron",
-            "picture": "images/Aaron1.jpg",
+            "picture": "Aaron1.jpg",
             "certLevel" : "Expert",
             "experience" : "10 years",
             "email" : "john@salmonriveradventures.com",
@@ -18,7 +18,7 @@
         },
         {
             "name": "Lacy",
-            "picture": "images/Lacy1.jpg",
+            "picture": "Lacy1.jpg",
             "certLevel" : "Expert",
             "experience" : "12 years",
             "email" : "john@salmonriveradventures.com",
