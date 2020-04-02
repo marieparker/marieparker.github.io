@@ -31,25 +31,20 @@ fetch(requestURL)
         card.appendChild(experience);
 
         let address = document.createElement('p');
-        address = guides[i].email;
+        address = guides[i].address;
         card.appendChild(address);
 
         let bio = document.createElement('p');
         bio = guides[i].bio;
         card.appendChild(bio);
-        
-
-        
-
-        /*let experience = document.createElement('p');
-        experience.textContent = guides[0].experience;
-        card.appendChild(experience);*/
 
         let photo = document.createElement('img');
         photo.setAttribute('src', 'images/' + guides[i].picture);
         photo.setAttribute('alt', 'Picture of ' + guides[i].name);
 
+        document.getElementById('guides').appendChild(photo);
         document.getElementById('guides').appendChild(card);
+
 
         row = row + 1;
 
