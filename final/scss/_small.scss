@@ -326,6 +326,14 @@ header {
           width: 95%;
       }
 
+      .top input, select {
+          max-width: 650px;
+      }
+
+      textarea {
+          max-width: 800px;
+      }
+
       ::placeholder {
           color: darkslategray;
       }

@@ -259,6 +259,12 @@ main .top input, main textarea, main select {
   color: #1A1423;
   width: 95%; }
 
+main .top input, main select {
+  max-width: 650px; }
+
+main textarea {
+  max-width: 800px; }
+
 main ::placeholder {
   color: darkslategray; }
 
