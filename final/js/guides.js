@@ -33,7 +33,7 @@ fetch(requestURL)
 
         let photo = document.createElement('img');
         photo.setAttribute('src', 'images/' + guides[i].picture);
-        photo.setAttributr('alt', 'Picture of ' + guides[i].name);
+        photo.setAttribute('alt', 'Picture of ' + guides[i].name);
 
         document.getElementById('guides').appendChild(card);
 
