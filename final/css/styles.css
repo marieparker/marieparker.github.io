@@ -127,13 +127,17 @@ main div div.pageHeading h1 {
 main div div.pageHeading p {
   color: white;
   margin-top: 0;
-  font-weight: 700; }
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #1A1423, -1px -1px 2px #1A1423; }
 
 main div div.dark {
-  color: rgba(52, 121, 136, 0.8); }
+  color: rgba(52, 121, 136, 0.8);
+  text-shadow: 1px 1px white, -1px -1px white; }
 
 main div div.dark p {
   color: #1A1423;
+  text-shadow: 1px 1px white;
+  text-shadow: -1px -1px white;
   font-weight: 700; }
 
 main button {

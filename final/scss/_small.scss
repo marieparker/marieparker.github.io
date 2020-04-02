@@ -162,14 +162,18 @@ header {
         color: white;
         margin-top: 0;
         font-weight: 700;
+        text-shadow: 1px 1px 2px $textColor, -1px -1px 2px $textColor;
         }
 
     div div.dark {
         color: $background;
+        text-shadow: 1px 1px white, -1px -1px white;
     }
 
     div div.dark p {
         color: $textColor;
+        text-shadow: 1px 1px white;
+        text-shadow: -1px -1px white;
         font-weight: 700;
     }
 
