@@ -15,6 +15,11 @@ fetch(requestURL)
         card.setAttribute('class', 'guide');
         card.setAttribute('id', 'row' + row)
 
+        let photo = document.createElement('img');
+        photo.setAttribute('src', 'images/' + guides[i].picture);
+        photo.setAttribute('alt', 'Picture of ' + guides[i].name);
+        card.appendChild(photo);
+
         let info = document.createElement('section');
         card.appendChild(info);
         
@@ -38,11 +43,6 @@ fetch(requestURL)
         bio.textContent = guides[i].bio;
         info.appendChild(bio);
 
-        let photo = document.createElement('img');
-        photo.setAttribute('src', 'images/' + guides[i].picture);
-        photo.setAttribute('alt', 'Picture of ' + guides[i].name);
-
-        document.getElementById('guides').appendChild(photo);
         document.getElementById('guides').appendChild(card);
 
 

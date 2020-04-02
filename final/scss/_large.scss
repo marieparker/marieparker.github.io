@@ -37,4 +37,40 @@ main {
         top: 30%;
     }
 
+    .pageHeading {
+        top: 175px;
+    }
+
+    //Guides Formatting
+    #guides {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+
+    div.guide {
+        display: block;
+    }
+
+    div.guide img {
+        max-width: 100%;
+    }
+
+    div.guide section h2 {
+        text-align: center;
+    }
+
+    div#row2 h2 {
+        text-align: center;
+    }
+
+    #row2 {
+        text-align: center;
+    }
+    
+    div.guide section#row1, div.guide section#row2, div.guide section#row3 {
+        margin: 0;
+    }
+
 }

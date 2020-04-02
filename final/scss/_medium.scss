@@ -48,6 +48,11 @@ nav button {
     grid-column-gap: 20px;
 }
 
+.pageHeading {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 main {
 
     button {
@@ -63,26 +68,66 @@ main {
     }
 
     //Adventure Specifics Formatting
+    .pageHeading {
+        position: absolute;
+        top: 135px;
+        right: 50px;
+    }
+    
     section.adventure1 {
         position: absolute;
-        top: 50px;
+        top: 100px;
         max-width: 25%;
         padding: 0.5rem 2rem;
         margin-left: 5%;
     }
 
-    //Reservation Formatting 
-    
-    .difficult {
-        background-color: rgba(253, 231, 76, 0.5);
-        border: 2px solid $background;
-        border-radius: 10px;
+    //Reservations Formatting
+    .levels {
         margin-top: 4%;
         margin-right: 10%;
-        padding: 1rem;
     }
 
-    .difficult h3 {
-        margin-top: 0;
+    //Guides Formatting
+    div.guide {
+        display: flex;
+        flex: 1 1 100%;
+        padding-bottom: 0;
     }
+
+    div.guide section#row1, div.guide section#row3 {
+        margin: 0 auto 0 0;
+        padding: 0;
+    }
+
+    div.guide section {
+        padding-left: 2%; 
+        padding-right: 2%;
+    }
+
+    div.guide section#row2 {
+        margin: 0 0 0 auto;
+    }
+
+    div.guide h2 {
+        text-align: left;
+    }
+
+    #row2 {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    div#row2 h2 {
+        text-align: right;
+    }
+
+    div.guide img {
+        max-width: 45%;
+    }
+
+    
+
+    
+    
 }

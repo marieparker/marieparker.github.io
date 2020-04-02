@@ -87,6 +87,7 @@ header {
   hr {
     clear: both;
   }
+
   footer {
     text-align: center;
     font-family: 'Lato', sans-serif;
@@ -126,9 +127,30 @@ header {
         grid-column-start: 1;
         grid-column-end: 3;
     }
+
     img {
       width: 100%;
       }
+
+    .pageHeading {
+        position: absolute;
+        top: 110px;
+        right: 5%;
+        z-index: 10;
+        font-family: $headingFont;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .pageHeading h1 {
+        margin: 0;
+    }
+
+    .pageHeading p {
+        color: white;
+        margin-top: 0;
+        }
+
 
       button {
           background-color: transparent;
@@ -267,12 +289,58 @@ header {
           border-radius: 10px;
       }
 
-      .difficult img {
+      //Reservation Formatting
+      .levels img {
         display: flex;
         float: right;
         max-width: 45%;
         padding: 0.1rem;
-      }
+      } 
+    
+    .levels {
+        background-color: rgba(253, 231, 76, 0.5);
+        border: 2px solid $background;
+        border-radius: 10px;
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .levels h3 {
+        margin-top: 0;
+    }
+
+    //Guides Formatting
+    
+    #guides {
+        margin: 2%;
+        margin-bottom: 4%;
+        color: $background;
+    }
+
+    div#guides img {
+        border-radius: 7px;
+    }
+
+    div.guide {
+        padding-bottom: 2%;
+        margin-bottom: 4%;
+        border: 2px solid $background;
+        border-radius: 7px;
+    }
+
+    div.guide h2 {
+        font-family: 'Lato', sans-serif;
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+
+    div.guide section {
+        padding: 2%;
+    }
+    div.guide p {
+        font-family: 'Amiri', serif;
+        color: $headingColor;
+    }
   }
 
   
