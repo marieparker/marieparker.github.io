@@ -322,6 +322,15 @@ main div.guide p {
   font-family: 'Amiri', serif;
   color: #4c5b5c; }
 
+main .sent {
+  font-family: "Lato", sans-serif;
+  color: #db7f00;
+  padding-left: 5rem; }
+
+main .response {
+  font-size: 1.5rem;
+  padding-left: 5rem; }
+
 @media only screen and (min-width: 560px) {
   header #logo {
     max-width: 200px; }
