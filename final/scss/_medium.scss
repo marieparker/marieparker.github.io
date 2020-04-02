@@ -45,7 +45,7 @@ nav button {
 .reservations {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 10px;
 }
 
 .pageHeading {
@@ -79,13 +79,17 @@ main {
         top: 100px;
         max-width: 25%;
         padding: 0.5rem 2rem;
-        margin-left: 5%;
+        margin-left: 2%;
     }
 
     //Reservations Formatting
     .levels {
         margin-top: 4%;
         margin-right: 10%;
+    }
+
+    #type {
+        display: none;
     }
 
     //Guides Formatting
@@ -126,6 +130,18 @@ main {
         max-width: 45%;
     }
 
+    //Contact Us
+    div.location {
+        display: flex;
+        flex: 1 1 100%;
+    }
+
+    div.location iframe {
+        max-width: 40%;
+        max-height: 300px;
+    }
+
+    
     
 
     

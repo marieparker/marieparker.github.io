@@ -52,7 +52,7 @@
             </fieldset>
             <fieldset>
                 <legend>Your Adventure</legend>
-                <label class="top">Adventure Type
+                <label class="top">Adventure Type <span id="type">- see below for details</span>
                     <select name="adventure">
                         <option value="">Select Adventure</option>
                         <option value="beginner">Beginner</option>
@@ -61,10 +61,10 @@
                     </select>
                 </label>
                 <label class="top">Start Date <input type="date" name="adventureDate" required></label>
-                <label class="top">Questions/Comments <textarea name="comments" rows="6" cols="30"></textarea></label>                
+                <label class="top">Questions/Comments <textarea name="comments" rows="6"></textarea></label>                
             </fieldset>
 
-            <input id="reportBtn" type="submit" value="Book My Adventure"> 
+            <input class="reportBtn" type="submit" value="Book My Adventure"> 
         </form>
         <div class="adventureLevels">  
         <section class="levels">
@@ -93,7 +93,7 @@
                 </p>
             </section>
             <section class="levels">
-                <h3>Level: Difficult</h3>
+                <h3>Level: Advanced</h3>
                 <ul>
                     <li>3 days</li>
                     <li>$1500</li>
