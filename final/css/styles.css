@@ -341,7 +341,7 @@ main .response {
   font-size: 1.5rem;
   padding-left: 5rem; }
 
-@media only screen and (min-width: 560px) {
+@media only screen and (min-width: 680px) {
   header #logo {
     max-width: 200px; }
   header h1 {
@@ -368,6 +368,9 @@ main .response {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 10px; }
   .pageHeading {
+    grid-column-start: 1;
+    grid-column-end: 3; }
+  .location {
     grid-column-start: 1;
     grid-column-end: 3; }
   .homePage {
