@@ -23,9 +23,23 @@ fetch(requestURL)
         card.appendChild(name);
 
         let cert = document.createElement('p');
-        cert.textContent = guides[i].certLevel + '\n' +  guides[i].experience;
+        cert.textContent = guides[i].certLevel;
         card.appendChild(cert);
-        console.log(cert);
+
+        let experience = document.createElement('p');
+        experience.textContent = guides[i].experience;
+        card.appendChild(experience);
+
+        let address = document.createElement('p');
+        address = guides[i].email;
+        card.appendChild(address);
+
+        let bio = document.createElement('p');
+        bio = guides[i].bio;
+        card.appendChild(bio);
+        
+
+        
 
         /*let experience = document.createElement('p');
         experience.textContent = guides[0].experience;
