@@ -378,11 +378,11 @@ main div.guide p {
 main .sent {
   font-family: "Lato", sans-serif;
   color: #db7f00;
-  padding-left: 5rem; }
+  padding-left: 5%; }
 
 main .response {
   font-size: 1.5rem;
-  padding-left: 5rem; }
+  padding-left: 5%; }
 
 @media only screen and (min-width: 680px) {
   header #logo {
