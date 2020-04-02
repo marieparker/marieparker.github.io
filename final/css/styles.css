@@ -424,8 +424,6 @@ main .response {
   main .levels {
     margin-top: 4%;
     margin-right: 10%; }
-  main #type {
-    display: none; }
   main div.guide {
     display: flex;
     flex: 1 1 100%;
