@@ -4,7 +4,7 @@
             "name": "John",
             "picture": "",
             "certLevel" : "Expert",
-            "experience" : "",
+            "experience" : "15 years",
             "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         },
@@ -12,7 +12,7 @@
             "name": "John",
             "picture": "",
             "certLevel" : "Expert",
-            "experience" : "",
+            "experience" : "10 years",
             "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         },
@@ -20,7 +20,7 @@
             "name": "John",
             "picture": "",
             "certLevel" : "Expert",
-            "experience" : "",
+            "experience" : "12 years",
             "email" : "john@salmonriveradventures.com",
             "bio" : "Lots of great information about him." 
         }
