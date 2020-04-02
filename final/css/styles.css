@@ -236,12 +236,12 @@ main div.currentWeather {
   line-height: 3rem; }
 
 main table {
-  background-color: rgba(253, 231, 76, 0.5);
+  background-color: rgba(52, 121, 136, 0.5);
   border: 2px solid rgba(52, 121, 136, 0.8);
-  border-radius: 1em;
   margin: 1rem auto;
   border-collapse: collapse;
-  width: 85%; }
+  width: 85%;
+  font-family: "Amiri", serif; }
 
 main caption {
   font-family: "Lato", sans-serif;
@@ -260,8 +260,8 @@ main th {
   padding-bottom: 1.25%;
   color: white; }
 
-main tr:nth-child(even) {
-  background-color: rgba(253, 231, 76, 0.8); }
+main tr:nth-child(odd) {
+  background-color: rgba(52, 121, 136, 0.2); }
 
 main td {
   border: 1px solid #3891a6;

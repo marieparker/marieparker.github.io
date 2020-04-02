@@ -298,12 +298,12 @@ header {
 
       //Reservations Form Formatting
       table {
-        background-color: rgba(253, 231, 76, 0.5);
+        background-color: rgba(52, 121, 136, 0.5);
         border: 2px solid $background;
-        border-radius: 1em;
           margin: 1rem auto;
           border-collapse: collapse;
           width: 85%;
+          font-family: $textFont;
       }
 
       caption {
@@ -326,8 +326,8 @@ header {
         color: white;
       } 
 
-      tr:nth-child(even) {
-          background-color: rgba(253, 231, 76, 0.8);
+      tr:nth-child(odd) {
+          background-color: rgba(52, 121, 136, 0.2);
       }
       
       td {
