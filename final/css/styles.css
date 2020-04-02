@@ -158,6 +158,9 @@ main button.back {
   left: 2%;
   z-index: 8; }
 
+main div.location {
+  clear: both; }
+
 main div.location iframe {
   max-width: 100%;
   max-height: 200px; }
@@ -175,7 +178,7 @@ main div.location section {
   padding: 0.3rem; }
 
 main section.socialmedia img {
-  max-width: 20px; }
+  max-width: 30px; }
 
 main section.adventure1, main section.adventure2, main section.adventure3 {
   background-color: #fde74c;
@@ -348,6 +351,11 @@ main div.guide p {
   .pageHeading {
     grid-column-start: 1;
     grid-column-end: 3; }
+  .homePage {
+    margin-top: 5rem;
+    margin-bottom: 2rem; }
+  section.socialmedia img {
+    max-width: 20px; }
   main button {
     font-size: 5rem; }
   main button.forward {
@@ -360,10 +368,12 @@ main div.guide p {
     right: 50px; }
   main section.adventure1, main section.adventure2, main section.adventure3 {
     position: absolute;
-    top: 100px;
-    max-width: 25%;
+    top: 85px;
+    width: 32%;
     padding: 0.5rem 2rem;
-    margin-left: 2%; }
+    margin-left: 8%; }
+  main button.reserve {
+    padding: .7rem; }
   main .levels {
     margin-top: 4%;
     margin-right: 10%; }
@@ -421,8 +431,12 @@ main div.guide p {
       top: 30%; }
     main .pageHeading {
       top: 75px; }
+    main button.reserve {
+      padding: 1rem; }
     main .reportBtn {
       font-size: 1.75rem; }
+    main .homePage {
+      margin-top: 2rem; }
     main #guides {
       text-align: center;
       display: grid;

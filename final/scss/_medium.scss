@@ -48,6 +48,17 @@ nav button {
     grid-column-end: 3;
 }
 
+//Contact
+
+.homePage {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+}
+
+section.socialmedia img {
+    max-width: 20px;
+  }
+
 main {
 
     button {
@@ -71,11 +82,16 @@ main {
     
     section.adventure1, section.adventure2, section.adventure3 {
         position: absolute;
-        top: 100px;
-        max-width: 25%;
+        top: 85px;
+        width: 32%;
         padding: 0.5rem 2rem;
-        margin-left: 2%;
+        margin-left: 8%;
     }
+
+    button.reserve {
+        padding: .7rem;
+    }
+
 
     //Reservations Formatting
     .levels {
