@@ -203,7 +203,7 @@ main p {
   color: #1A1423;
   font-family: 'Amiri', serif; }
 
-main button.reserve {
+main .bookNow {
   display: flex;
   float: left;
   font-size: 1rem;
@@ -211,9 +211,10 @@ main button.reserve {
   color: white;
   background-color: #db7f00;
   padding: 1rem;
-  border-radius: 10px; }
+  border-radius: 10px;
+  text-decoration: none; }
 
-main button.reserve:hover {
+main .reserve:hover {
   background-color: #995a03; }
 
 main div.sticky {

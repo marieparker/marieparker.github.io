@@ -257,7 +257,7 @@ header {
         font-family: 'Amiri', serif;
     }
 
-    button.reserve {
+    .bookNow {
         display: flex;
         float: left;
         font-size: 1rem;
@@ -266,9 +266,10 @@ header {
         background-color: $schemeOrange;
         padding: 1rem;
         border-radius: 10px;
+        text-decoration: none;
     }
 
-    button.reserve:hover {
+    .reserve:hover {
         background-color: rgb(153, 90, 3);
     }
 
