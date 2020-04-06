@@ -50,6 +50,11 @@ main {
         font-size: 1.75rem;
     }
 
+    div.grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
     //Guides Formatting
     #guides {
         text-align: center;
@@ -74,8 +79,9 @@ main {
         text-align: center;
     }
 
-    #row2 {
-        text-align: center;
+    div.guide p {
+        text-align: left;
+        padding: .15rem;
     }
     
     div.guide section#row1, div.guide section#row2, div.guide section#row3 {

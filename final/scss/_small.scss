@@ -436,6 +436,12 @@ header {
     }
 
     //Guides Formatting
+    .meet, .contact {
+        font-family: $headingFont;
+        color: $schemeOrange;
+        font-weight: 300;
+        text-align: center;
+    }
     
     #guides {
         margin: 2%;
@@ -452,6 +458,7 @@ header {
         margin-bottom: 4%;
         border: 2px solid $background;
         border-radius: 7px;
+        background-color: $schemeYellow;
     }
 
     div.guide h2 {
@@ -465,7 +472,7 @@ header {
     }
     div.guide p {
         font-family: 'Amiri', serif;
-        color: $headingColor;
+        color: $textColor;
     }
 
     //Sent page
